@@ -1,0 +1,519 @@
+{
+  "results": [
+    {
+      "doc_id": "bosch-shem63w55n",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "status": "unresolved",
+      "reason": "no_candidate_verified",
+      "attempts": [
+        {
+          "url": "https://media3.bosch-home.com/Documents/MCDOC02307510_SHEM63W55N-CA-EN.pdf",
+          "result": "rejected:too_few_pages:3"
+        }
+      ]
+    },
+    {
+      "doc_id": "bosch-shem63w5xn-9001238146",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "status": "verified",
+      "title": "Bosch 300 Series Dishwasher Use and Care Manual (SHEM63W52N/SHEM63W55N/SHEM63W56N)",
+      "models": [
+        "SHEM63W55N",
+        "SHEM63W52N",
+        "SHEM63W56N"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://media3.bosch-home.com/Documents/9001238146_A.pdf",
+      "pdf_url": "https://media3.bosch-home.com/Documents/9001238146_A.pdf",
+      "local_path": "data/manuals/bosch-shem63w5xn-9001238146.pdf",
+      "sha256": "cad28167a27485f11ddfc92a3854205bfaa6f08084d8dd3af59c30a515101335",
+      "bytes": 6614287,
+      "pages": 88,
+      "models_matched_in_text": [
+        "SHEM63W52N",
+        "SHEM63W55N",
+        "SHEM63W56N"
+      ],
+      "pages_scanned_for_model": 12,
+      "model_check": "pdf_text",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:56:18+00:00",
+      "model_note": "All three model strings are printed in the PDF text (models_matched_in_text in the manifest).",
+      "attempts": []
+    },
+    {
+      "doc_id": "ge-gdt545psjss",
+      "category": "dishwasher",
+      "brand": "GE Appliances",
+      "status": "verified",
+      "title": "GE GDT545PSJSS Dishwasher Owner's Manual",
+      "models": [
+        "GDT545PSJSS",
+        "GDT535-635",
+        "GDF500-620"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://products.geappliances.com/appliance/gea-specs/GDT545PSJSS/support",
+      "pdf_url": "https://images.salsify.com/image/upload/s--WPpvEVcl--/b25e6dc3b622517048d18c47c731d31697b0dcfd.pdf",
+      "local_path": "data/manuals/ge-gdt545psjss.pdf",
+      "sha256": "6d3db16b33fb0f765e7b16abba394c2594832350d20b1bf66589fbd3f47742e7",
+      "bytes": 5885954,
+      "pages": 66,
+      "models_matched_in_text": [
+        "GDF500-620",
+        "GDT535-635"
+      ],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:55:59+00:00",
+      "model_note": "The manual cover prints the series ranges \"GDT535-635\" and \"GDF500-620\" (kept verbatim as aliases); GDT545PSJSS is the model linked from GE's product page (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "kitchenaid-kdtm404kps",
+      "category": "dishwasher",
+      "brand": "KitchenAid",
+      "status": "blocked",
+      "reason": "kitchenaid.com shares the whirlpool.com platform and returns HTTP 403."
+    },
+    {
+      "doc_id": "whirlpool-wdf520padm",
+      "category": "dishwasher",
+      "brand": "Whirlpool",
+      "status": "blocked",
+      "reason": "same 403 bot protection as the rest of the whirlpool.com family."
+    },
+    {
+      "doc_id": "ge-gtd45easjws",
+      "category": "dryer",
+      "brand": "GE Appliances",
+      "status": "verified",
+      "title": "GE GTD45EASJWS Electric Dryer Owner's Manual",
+      "models": [
+        "GTD45EASJWS"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://products.geappliances.com/appliance/gea-specs/GTD45EASJWS/support",
+      "pdf_url": "https://images.salsify.com/image/upload/s--7_TYuLsN--/95fb91043308444903c480d5555172fc56f6725f.pdf",
+      "local_path": "data/manuals/ge-gtd45easjws.pdf",
+      "sha256": "0c733d93f9efeb515ee3ecc71d3e65808e4acfb31c39ef79e502d4fa859a3ce7",
+      "bytes": 883012,
+      "pages": 24,
+      "models_matched_in_text": [],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:55:56+00:00",
+      "model_note": "GE dryer manual 234D2431P001 prints no model string in its extractable text; the model is linked from GE's product page for GTD45EASJWS (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "ge-gtd65ebsjws",
+      "category": "dryer",
+      "brand": "GE Appliances",
+      "status": "verified",
+      "title": "GE GTD65EBSJWS Electric Dryer Owner's Manual",
+      "models": [
+        "GTD65EBSJWS"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://products.geappliances.com/appliance/gea-specs/GTD65EBSJWS/support",
+      "pdf_url": "https://images.salsify.com/image/upload/s--v6myuK7x--/2210d886a0b34cfc7e6e1e2840e343dfcf64aba3.pdf",
+      "local_path": "data/manuals/ge-gtd65ebsjws.pdf",
+      "sha256": "8830753cff752c917cd6d69183c50483b92217560a325e7943edf335963260c1",
+      "bytes": 3032488,
+      "pages": 32,
+      "models_matched_in_text": [],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:55:54+00:00",
+      "model_note": "GE dryer manual 49-90536-3 prints no model string in its extractable text, so the model is linked from GE's product page for GTD65EBSJWS (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "lg-dle7000w",
+      "category": "dryer",
+      "brand": "LG",
+      "candidate_count": 4,
+      "status": "unresolved",
+      "reason": "no_candidate_verified",
+      "attempts": [
+        {
+          "url": "https://www.lg.com/us/support/products/documents/DLE7000W_DLG7001W_spec_sheet.pdf",
+          "result": "rejected:too_few_pages:1"
+        },
+        {
+          "url": "https://www.lg.com/us/support/product/DR_EUS_MFL70442691_03_260109_00_OM_WEB_EN.pdf",
+          "result": "download_failed:HTTPError"
+        },
+        {
+          "url": "https://www.lg.com/us/support/product/DR_EUS_MFL70442691_03_260109_00_OM_WEB_EN.pdf",
+          "result": "download_failed:HTTPError"
+        },
+        {
+          "url": "https://www.lg.com/us/support/product/DR_EUS_MFL70442691_03_260109_00_OM_WEB_SP.pdf",
+          "result": "download_failed:HTTPError"
+        },
+        {
+          "url": "https://www.lg.com/us/support/product/DR_EUS_MFL70442691_03_260109_00_OM_WEB_SP.pdf",
+          "result": "download_failed:HTTPError"
+        },
+        {
+          "url": "https://www.lg.com/us/PDF/warranty/ha/WM/WM_Dryer_Normal.pdf",
+          "result": "rejected:too_few_pages:3"
+        }
+      ]
+    },
+    {
+      "doc_id": "maytag-med6230hw",
+      "category": "dryer",
+      "brand": "Maytag",
+      "status": "blocked",
+      "reason": "maytag.com shares the whirlpool.com platform and returns HTTP 403."
+    },
+    {
+      "doc_id": "samsung-dve45t6000w",
+      "category": "dryer",
+      "brand": "Samsung",
+      "status": "verified",
+      "title": "Samsung DVE45T6000W Electric Dryer User Manual",
+      "models": [
+        "DVE45T6000W",
+        "DVE45T6000W/A3",
+        "DVE45T6000",
+        "DVE45T6005",
+        "DVG45T6000",
+        "DVG45T6005"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://www.samsung.com/latin_en/support/model/DVE45T6000W/A3/",
+      "pdf_url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_LATIN_EN&OriginYN=N&ModelType=N&ModelName=DVE45T6000W%2FA3&CttFileID=11193038&CDCttType=UM&VPath=UM%2F202512%2F20251202140153148%2FDC68-03381W-04_IB_DV6000_EN_251121.pdf",
+      "local_path": "data/manuals/samsung-dve45t6000w.pdf",
+      "sha256": "f9497860664d019429e5790c1351d6ffe9ef614b136262bed70e2ea0a29bc55c",
+      "bytes": 7583072,
+      "pages": 56,
+      "models_matched_in_text": [],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:56:11+00:00",
+      "model_note": "The cover prints the family with a shorthand - \"DVE(G)45T6005*/DVE(G)45T6000*\" - which is why the exact model cannot be read from the text; DVE45T6000W and DVE45T6000W/A3 come from Samsung's support page (source_page_url). The DVE/DVG families are kept as aliases because the manual states they share this document.",
+      "attempts": []
+    },
+    {
+      "doc_id": "whirlpool-wed4815ew",
+      "category": "dryer",
+      "brand": "Whirlpool",
+      "status": "blocked",
+      "reason": "same 403 bot protection as the rest of the whirlpool.com family (Maytag/Amana/KitchenAid share the platform)."
+    },
+    {
+      "doc_id": "ge-jes1095smss",
+      "category": "microwave",
+      "brand": "GE Appliances",
+      "status": "verified",
+      "title": "GE JES1095SMSS Countertop Microwave Owner's Manual",
+      "models": [
+        "JES1095SMSS"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://products.geappliances.com/appliance/gea-specs/JES1095SMSS/support",
+      "pdf_url": "https://images.salsify.com/image/upload/s--vr7FhG8R--/wu5ysphu96nilla0uhye.pdf",
+      "local_path": "data/manuals/ge-jes1095smss.pdf",
+      "sha256": "b24095bfa1edc0e445d43bff5402239a91a65b13ad97e64bfaf6142b74f97789",
+      "bytes": 314615,
+      "pages": 40,
+      "models_matched_in_text": [],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:57:19+00:00",
+      "model_note": "The cover's model line extracts as 'JES1095' merged with the following heading, so no exact model string can be read from the PDF text; JES1095SMSS comes from GE's product page, which links this manual (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "panasonic-nn-sn67hs",
+      "category": "microwave",
+      "brand": "Panasonic",
+      "status": "verified",
+      "title": "Panasonic NN-SN65/NN-SN66/NN-SN67 Microwave Oven Operating Instructions",
+      "models": [
+        "NN-SN67HS",
+        "NN-SN66KB",
+        "NN-SN65KB"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://help.na.panasonic.com/microwave-multi-ovens/microwave-ovens/nn-sn67hs/",
+      "pdf_url": "https://help.na.panasonic.com/wp-content/uploads/2023/02/NNSN65_SN66_SN67_F0003CA10AP_ENG-2.pdf",
+      "local_path": "data/manuals/panasonic-nn-sn67hs.pdf",
+      "sha256": "bec4f3903ec5070c52e88df8189be8e37678d360e9fd340bdeaf59a4439ae88c",
+      "bytes": 10232297,
+      "pages": 28,
+      "models_matched_in_text": [
+        "NN-SN65KB",
+        "NN-SN66KB"
+      ],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:56:21+00:00",
+      "model_note": "The PDF text prints NN-SN65KB and NN-SN66KB (pdf_text aliases); NN-SN67HS comes from Panasonic's support page for that model, which links this document (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "samsung-ms14k6000as",
+      "category": "microwave",
+      "brand": "Samsung",
+      "status": "verified",
+      "title": "Samsung MS14K6000AS Countertop Microwave User Manual",
+      "models": [
+        "MS14K6000AS",
+        "MS14K6000AS/AA",
+        "MW5100J"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://www.samsung.com/latin_en/support/model/MS14K6000AS/AA/",
+      "pdf_url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_LATIN_EN&OriginYN=N&ModelType=N&ModelName=MS14K6000AS%2FAA&CttFileID=9304242&CDCttType=UM&VPath=UM%2F202309%2F20230912164405605%2FDE68-04569A-03_IB_FULL_MS14K6000AS_AA_MW5100J_EN_230831.pdf",
+      "local_path": "data/manuals/samsung-ms14k6000as.pdf",
+      "sha256": "a200f63becbf1dd24d3ad7bde660930bee8413b66a2f899dfb1ddb8402e36649",
+      "bytes": 2121117,
+      "pages": 12,
+      "models_matched_in_text": [
+        "MS14K6000AS",
+        "MS14K6000AS/AA",
+        "MW5100J"
+      ],
+      "pages_scanned_for_model": 12,
+      "model_check": "pdf_text",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:56:16+00:00",
+      "model_note": "The manual prints MS14K6000AS and the MW5100J family (pdf_text aliases); MS14K6000AS/AA is the model name on Samsung's support page (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "whirlpool-wmc30516hz",
+      "category": "microwave",
+      "brand": "Whirlpool",
+      "status": "blocked",
+      "reason": "useandcareguide-w11083577-revb.pdf was located in the content/dam path but also returns HTTP 403 to non-browser clients."
+    },
+    {
+      "doc_id": "amana-art104psm",
+      "category": "refrigerator",
+      "brand": "Amana",
+      "status": "unresolved",
+      "reason": "page_fetch_failed:HTTPError:HTTP Error 403: Forbidden"
+    },
+    {
+      "doc_id": "ge-gne25jsk",
+      "category": "refrigerator",
+      "brand": "GE Appliances",
+      "status": "verified",
+      "title": "GE GNE25JSKSS French Door Refrigerator Owner's Manual",
+      "models": [
+        "GNE25JSKSS",
+        "GNE25J",
+        "GNE25D",
+        "GNE27J",
+        "GFE26J",
+        "GDE25E"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://products.geappliances.com/appliance/gea-specs/GNE25JSKSS/support",
+      "pdf_url": "https://images.salsify.com/image/upload/s--pXl3lhs0--/62273f4600c3c24f47bbb5cd4efe87bc62d6e7c2.pdf",
+      "local_path": "data/manuals/ge-gne25jsk.pdf",
+      "sha256": "55a3e5faef2405610d539f491536b3921bbd1a268dccd6032e322d0e698f9780",
+      "bytes": 20161072,
+      "pages": 156,
+      "models_matched_in_text": [
+        "GDE25E",
+        "GFE26J",
+        "GNE25D",
+        "GNE25J",
+        "GNE27J"
+      ],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:56:02+00:00",
+      "model_note": "The manual's model table prints the series (GNE25J, GNE25D, GNE27J, GFE26J, GDE25E) - those are pdf_text aliases; GNE25JSKSS is the model linked from GE's product page (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "lg-lrfxs2503s",
+      "category": "refrigerator",
+      "brand": "LG",
+      "status": "blocked",
+      "reason": "LG support pages render manual links with JavaScript; the /us/support/product/*.pdf endpoints return HTTP 404 to direct requests, and the Canadian content/dam document for this model is a 1-page product sheet, not the owner's manual."
+    },
+    {
+      "doc_id": "samsung-rf23r6201sr",
+      "category": "refrigerator",
+      "brand": "Samsung",
+      "status": "verified",
+      "title": "Samsung RF23R6201SR French Door Refrigerator User Manual",
+      "models": [
+        "RF23R6201SR",
+        "RF23R6201SR/AA"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://www.samsung.com/ca/support/model/RF23R6201SR/AA/",
+      "pdf_url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_CA&OriginYN=N&ModelType=N&ModelName=RF23R6201SR&CttFileID=8194074&CDCttType=UM&VPath=UM%2F202106%2F20210623101812172%2FFDR_AW2-14-CD-FL_DA68-03873A-04_EN_MES_CFR.pdf",
+      "local_path": "data/manuals/samsung-rf23r6201sr.pdf",
+      "sha256": "6168b303be2d144aebae316636c8042b12d48c7c6a8108f7018720aeeb94ded9",
+      "bytes": 35315829,
+      "pages": 264,
+      "models_matched_in_text": [],
+      "pages_scanned_for_model": 12,
+      "model_check": "manufacturer_page",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:56:13+00:00",
+      "model_note": "Samsung's support page for RF23R6201SR/AA links this user manual (source_page_url); the PDF text itself does not print a single exact model string.",
+      "attempts": []
+    },
+    {
+      "doc_id": "whirlpool-wrt311fzdw",
+      "category": "refrigerator",
+      "brand": "Whirlpool",
+      "status": "blocked",
+      "reason": "same 403 bot protection as the rest of the whirlpool.com family."
+    },
+    {
+      "doc_id": "amana-ntw4516fw",
+      "category": "washer",
+      "brand": "Amana",
+      "status": "blocked",
+      "reason": "amana.com shares the whirlpool.com platform and returns HTTP 403."
+    },
+    {
+      "doc_id": "ge-gtw335asnww",
+      "category": "washer",
+      "brand": "GE Appliances",
+      "status": "verified",
+      "title": "GE GTW335ASNWW Top-Load Washer Owner's Manual",
+      "models": [
+        "GTW335ASNWW",
+        "GTW335",
+        "GTW325",
+        "GTW220",
+        "GTW385",
+        "GTW465",
+        "GTW480",
+        "GTW485",
+        "GTW490",
+        "GTW500",
+        "GTW525",
+        "GTW538",
+        "GTW540",
+        "HTW240",
+        "HTW265"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://products.geappliances.com/appliance/gea-specs/GTW335ASNWW/support",
+      "pdf_url": "https://images.salsify.com/image/upload/s--AKgAhUAs--/r4yctjlrytehsjedypih.pdf",
+      "local_path": "data/manuals/ge-gtw335asnww.pdf",
+      "sha256": "d06a41ac83731dab8b2da515fd708b25292d41fd5f0e0ac2d22252b20a16a620",
+      "bytes": 6305653,
+      "pages": 60,
+      "models_matched_in_text": [
+        "GTW220",
+        "GTW325",
+        "GTW335",
+        "GTW385",
+        "GTW465",
+        "GTW480",
+        "GTW485",
+        "GTW490",
+        "GTW500",
+        "GTW525",
+        "GTW538",
+        "GTW540",
+        "HTW240",
+        "HTW265"
+      ],
+      "pages_scanned_for_model": 12,
+      "model_check": "pdf_text",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:55:52+00:00",
+      "model_note": "The manual cover prints the washer series (GTW335, GTW540, ... HTW265), which are pdf_text aliases. The exact model GTW335ASNWW is the product-page model for this manual (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "lg-wt7005cw",
+      "category": "washer",
+      "brand": "LG",
+      "status": "blocked",
+      "reason": "same LG JS-rendered manual links (404 to direct requests)."
+    },
+    {
+      "doc_id": "samsung-wa45t3200aw",
+      "category": "washer",
+      "brand": "Samsung",
+      "status": "verified",
+      "title": "Samsung WA45T3200AW Top-Load Washer User Manual",
+      "models": [
+        "WA45T3200AW",
+        "WA45T3200AW/A4",
+        "WA3200T"
+      ],
+      "doc_type": "owner_manual",
+      "source_page_url": "https://www.samsung.com/latin_en/support/model/WA45T3200AW/A4/",
+      "pdf_url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_LATIN_EN&OriginYN=N&ModelType=N&ModelName=WA45T3200AW%2FA4&CttFileID=11506414&CDCttType=UM&VPath=UM%2F202606%2F20260616083004564%2FDC68-03850D-09_IB_WA3200T_EN_CFR_MES_260609.pdf",
+      "local_path": "data/manuals/samsung-wa45t3200aw.pdf",
+      "sha256": "c136e76d551f1fedbab18cd51ac0d1f35f89fe86200604534b3da928b3391726",
+      "bytes": 29949951,
+      "pages": 204,
+      "models_matched_in_text": [
+        "WA3200T",
+        "WA45T3200AW",
+        "WA45T3200AW/A4"
+      ],
+      "pages_scanned_for_model": 12,
+      "model_check": "pdf_text",
+      "content_type": "application/pdf",
+      "tls_verified": true,
+      "retrieved_at": "2026-10-07T19:56:09+00:00",
+      "model_note": "The manual prints WA45T3200AW and the WA3200T family (pdf_text aliases); WA45T3200AW/A4 is the model name on Samsung's support page for this document (source_page_url).",
+      "attempts": []
+    },
+    {
+      "doc_id": "whirlpool-wtw5000dw",
+      "category": "washer",
+      "brand": "Whirlpool",
+      "status": "blocked",
+      "reason": "whirlpool.com returns HTTP 403 to non-browser clients for both the product page and the content/dam PDF host (bot protection); no official PDF could be downloaded."
+    }
+  ],
+  "historical_attempts": [
+    {
+      "doc_id": "amana-art104psm",
+      "status": "unresolved",
+      "note": "dropped: Amana shares the whirlpool.com platform, which returns HTTP 403 to non-browser clients; the whole Whirlpool family is recorded as disabled."
+    },
+    {
+      "doc_id": "bosch-shem63w55n",
+      "status": "unresolved",
+      "note": "superseded: the MCDOC02307510_SHEM63W55N-CA-EN.pdf candidate was only a 3-page quick-start sheet; replaced by the 88-page 9001238146_A.pdf manual for the same model family."
+    },
+    {
+      "doc_id": "lg-dle7000w",
+      "status": "unresolved",
+      "note": "dropped: LG builds its manual links with JavaScript and its direct PDF endpoints return HTTP 404; LG is recorded as disabled instead."
+    }
+  ]
+}

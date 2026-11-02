@@ -1,0 +1,1663 @@
+{
+  "generated_at": "2026-10-12T20:08:07+00:00",
+  "set": "dev",
+  "questions_file": "eval\\questions.jsonl",
+  "index_built_at": "2026-10-07T19:57:20+00:00",
+  "documents": [
+    "bosch-shem63w5xn-9001238146",
+    "ge-gdt545psjss",
+    "ge-gtd45easjws",
+    "ge-gtd65ebsjws",
+    "samsung-dve45t6000w",
+    "ge-jes1095smss",
+    "panasonic-nn-sn67hs",
+    "samsung-ms14k6000as",
+    "ge-gne25jsk",
+    "samsung-rf23r6201sr",
+    "ge-gtw335asnww",
+    "samsung-wa45t3200aw"
+  ],
+  "summary": {
+    "cases": 36,
+    "passed": 36,
+    "failed": 0,
+    "pass_rate": 1.0,
+    "by_kind": {
+      "grounded": {
+        "passed": 20,
+        "total": 20
+      },
+      "isolation": {
+        "passed": 5,
+        "total": 5
+      },
+      "clarify": {
+        "passed": 3,
+        "total": 3
+      },
+      "unknown_model": {
+        "passed": 4,
+        "total": 4
+      },
+      "abstain": {
+        "passed": 3,
+        "total": 3
+      },
+      "conflict": {
+        "passed": 1,
+        "total": 1
+      }
+    },
+    "page_tolerance": 1,
+    "exact_page_tolerance": 0,
+    "metrics": {
+      "grounded_document_hit_at_k": {
+        "hits": 20,
+        "cases": 20,
+        "rate": 1.0
+      },
+      "grounded_exact_expected_page_hit": {
+        "hits": 19,
+        "cases": 20,
+        "rate": 0.95
+      },
+      "grounded_expected_page_hit_within_1": {
+        "hits": 20,
+        "cases": 20,
+        "rate": 1.0
+      },
+      "grounded_top1_document_accuracy": {
+        "hits": 15,
+        "cases": 20,
+        "rate": 0.75
+      },
+      "abstention_accuracy": {
+        "hits": 3,
+        "cases": 3,
+        "rate": 1.0
+      },
+      "clarification_accuracy": {
+        "hits": 3,
+        "cases": 3,
+        "rate": 1.0
+      },
+      "model_isolation_accuracy": {
+        "hits": 5,
+        "cases": 5,
+        "rate": 1.0
+      },
+      "unknown_model_accuracy": {
+        "hits": 4,
+        "cases": 4,
+        "rate": 1.0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "W1",
+      "question": "How do I level the washer?",
+      "filters": {
+        "category": "washer"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtw335asnww",
+        "page": 22
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 27,
+            "score": 16.0482
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 22,
+            "score": 15.9714
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 34,
+            "score": 15.9264
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 25,
+            "score": 15.9061
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 27,
+            "score": 15.8672
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 22,
+            "score": 15.4663
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "page": 22
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtw335asnww",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "W2",
+      "question": "Where do I add detergent in the washer?",
+      "filters": {
+        "category": "washer"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtw335asnww",
+        "page": 8
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 38,
+            "score": 21.9321
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 39,
+            "score": 20.3613
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 8,
+            "score": 20.1203
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 46,
+            "score": 19.1162
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 15,
+            "score": 18.7098
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 25,
+            "score": 18.6898
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "page": 8
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-wa45t3200aw",
+        "top1_doc_hit": false
+      }
+    },
+    {
+      "id": "W3",
+      "question": "What is the four minute lock-out period on this washer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtw335asnww",
+        "page": 13
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 13,
+            "score": 35.4029
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 13,
+            "score": 32.5201
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 8,
+            "score": 16.4189
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "page": 13
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtw335asnww",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "W4",
+      "question": "How do I turn on Child Lock on the washer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-wa45t3200aw",
+        "page": 34
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 34,
+            "score": 29.2009
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 34,
+            "score": 28.8261
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 35,
+            "score": 25.9018
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 47,
+            "score": 20.7605
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 36,
+            "score": 13.6724
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "page": 34
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-wa45t3200aw",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "W5",
+      "question": "How do I select the water level on the top load washer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-wa45t3200aw",
+        "page": 32
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 8,
+            "score": 33.5226
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 8,
+            "score": 33.3552
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 32,
+            "score": 32.9293
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 13,
+            "score": 28.8314
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 11,
+            "score": 28.7298
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 14,
+            "score": 28.4609
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "page": 32
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtw335asnww",
+        "top1_doc_hit": false
+      }
+    },
+    {
+      "id": "D1",
+      "question": "How often should I clean the lint filter?",
+      "filters": {
+        "category": "dryer"
+      },
+      "expect": {
+        "kind": "grounded",
+        "answers": [
+          {
+            "doc_id": "ge-gtd45easjws",
+            "page": 5
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "page": 10
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "page": 4
+          }
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 10,
+            "score": 24.8563
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 2,
+            "score": 23.3965
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 34,
+            "score": 22.8416
+          },
+          {
+            "doc_id": "ge-gtd45easjws",
+            "pdf_page": 9,
+            "score": 22.5981
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 12,
+            "score": 22.5259
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 34,
+            "score": 22.1983
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtd45easjws",
+            "page": 5
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "page": 10
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "page": 4
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtd65ebsjws",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "D2",
+      "question": "What does Sensor Dry do on the dryer?",
+      "filters": {
+        "category": "dryer"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtd65ebsjws",
+        "page": 8
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 8,
+            "score": 23.2806
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 30,
+            "score": 19.1244
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 36,
+            "score": 18.6331
+          },
+          {
+            "doc_id": "ge-gtd45easjws",
+            "pdf_page": 5,
+            "score": 18.4346
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 47,
+            "score": 17.9255
+          },
+          {
+            "doc_id": "ge-gtd45easjws",
+            "pdf_page": 5,
+            "score": 17.4084
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "page": 8
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtd65ebsjws",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "D3",
+      "question": "How do I lock the dryer controls?",
+      "filters": {
+        "category": "dryer"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtd65ebsjws",
+        "page": 5
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 5,
+            "score": 21.6157
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 5,
+            "score": 19.1737
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "page": 5
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtd65ebsjws",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "D4",
+      "question": "Where is Child Lock described on the dryer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-dve45t6000w",
+        "page": 42
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 42,
+            "score": 24.9789
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 37,
+            "score": 21.7421
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "page": 42
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-dve45t6000w",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "D5",
+      "question": "How should the dryer be vented?",
+      "filters": {
+        "category": "dryer"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtd45easjws",
+        "page": 8
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtd45easjws",
+            "pdf_page": 8,
+            "score": 18.1941
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 11,
+            "score": 17.8509
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 28,
+            "score": 14.7192
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 29,
+            "score": 14.6328
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 11,
+            "score": 14.4853
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 11,
+            "score": 14.4553
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtd45easjws",
+            "page": 8
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtd45easjws",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "DW1",
+      "question": "How do I load the silverware basket?",
+      "filters": {
+        "category": "dishwasher"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "bosch-shem63w5xn-9001238146",
+        "page": 16
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 16,
+            "score": 27.6501
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 14,
+            "score": 27.0398
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 16,
+            "score": 26.0424
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 14,
+            "score": 24.1618
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 13,
+            "score": 21.8157
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 11,
+            "score": 20.8026
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "page": 16
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "bosch-shem63w5xn-9001238146",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "DW2",
+      "question": "How do I clean the dishwasher filter?",
+      "filters": {
+        "category": "dishwasher"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "bosch-shem63w5xn-9001238146",
+        "page": 30
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 16,
+            "score": 23.9368
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 23.2213
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 16,
+            "score": 22.9704
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 21.6234
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 17,
+            "score": 21.6234
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 31,
+            "score": 20.6723
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "page": 30
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gdt545psjss",
+        "top1_doc_hit": false
+      }
+    },
+    {
+      "id": "DW3",
+      "question": "How often should the dishwasher filters be inspected and cleaned?",
+      "filters": {
+        "category": "dishwasher"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gdt545psjss",
+        "page": 16
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 16,
+            "score": 31.1945
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 25.7213
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 31,
+            "score": 23.7872
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 21.6234
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 16,
+            "score": 21.4368
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 17,
+            "score": 19.1234
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gdt545psjss",
+            "page": 16
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gdt545psjss",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "DW4",
+      "question": "How do I cancel a wash cycle on the dishwasher?",
+      "filters": {
+        "category": "dishwasher"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gdt545psjss",
+        "page": 8
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 8,
+            "score": 28.3848
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 8,
+            "score": 28.2485
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 35,
+            "score": 24.9129
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 27,
+            "score": 24.1724
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 17,
+            "score": 22.4609
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 28,
+            "score": 19.7992
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gdt545psjss",
+            "page": 8
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gdt545psjss",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "DW5",
+      "question": "How full should the rinse aid dispenser be filled?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "bosch-shem63w5xn-9001238146",
+        "page": 11
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 12,
+            "score": 34.2908
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 9,
+            "score": 31.3073
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 12,
+            "score": 30.8558
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 9,
+            "score": 26.076
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 10,
+            "score": 24.4131
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 23,
+            "score": 23.8977
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "page": 11
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": false,
+        "top_doc": "bosch-shem63w5xn-9001238146",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "M1",
+      "question": "How do I use the Popcorn pad on the microwave?",
+      "filters": {
+        "category": "microwave"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-jes1095smss",
+        "page": 14
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 6,
+            "score": 27.5614
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 6,
+            "score": 26.8263
+          },
+          {
+            "doc_id": "ge-jes1095smss",
+            "pdf_page": 14,
+            "score": 20.7159
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 16,
+            "score": 15.6297
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 10,
+            "score": 15.5966
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 12,
+            "score": 14.1244
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-jes1095smss",
+            "page": 14
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "panasonic-nn-sn67hs",
+        "top1_doc_hit": false
+      }
+    },
+    {
+      "id": "M2",
+      "question": "What does the Sensor Cook pad do?",
+      "filters": {
+        "category": "microwave"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "panasonic-nn-sn67hs",
+        "page": 10
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "pdf_page": 9,
+            "score": 20.8324
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 10,
+            "score": 19.1171
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 18,
+            "score": 18.6275
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 18,
+            "score": 18.5088
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 12,
+            "score": 17.6664
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 16,
+            "score": 15.4255
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "page": 10
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-ms14k6000as",
+        "top1_doc_hit": false
+      }
+    },
+    {
+      "id": "M3",
+      "question": "How do I know if cookware is safe to use in the microwave?",
+      "filters": {
+        "category": "microwave"
+      },
+      "expect": {
+        "kind": "grounded",
+        "answers": [
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "page": 6
+          },
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "page": 10
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "page": 8
+          }
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "pdf_page": 10,
+            "score": 26.8916
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 8,
+            "score": 25.5308
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 8,
+            "score": 25.1106
+          },
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "pdf_page": 9,
+            "score": 23.6936
+          },
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "pdf_page": 10,
+            "score": 23.0344
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "page": 6
+          },
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "page": 10
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "page": 8
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-ms14k6000as",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "R1",
+      "question": "How do I adjust the freezer compartment temperature?",
+      "filters": {
+        "category": "refrigerator"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gne25jsk",
+        "page": 8
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 8,
+            "score": 31.985
+          },
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 9,
+            "score": 28.9781
+          },
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 10,
+            "score": 28.8656
+          },
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 11,
+            "score": 28.5159
+          },
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 9,
+            "score": 19.546
+          },
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 21,
+            "score": 19.4516
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gne25jsk",
+            "page": 8
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gne25jsk",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "R2",
+      "question": "Where are the Autofill pitcher instructions?",
+      "filters": {
+        "category": "refrigerator"
+      },
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-rf23r6201sr",
+        "page": 39
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 52,
+            "score": 23.4428
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 54,
+            "score": 22.8715
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 39,
+            "score": 22.4492
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 39,
+            "score": 21.7591
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 59,
+            "score": 20.2234
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 47,
+            "score": 20.0887
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "page": 39
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-rf23r6201sr",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "X1",
+      "question": "How do I clean the filter?",
+      "filters": {
+        "model": "SHEM63W55N"
+      },
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "bosch-shem63w5xn-9001238146"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 15.537
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 15.3373
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 31,
+            "score": 14.4904
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 34,
+            "score": 13.2794
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 32,
+            "score": 12.871
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 11,
+            "score": 11.4589
+          }
+        ],
+        "allowed_docs": [
+          "bosch-shem63w5xn-9001238146"
+        ],
+        "observed_docs": [
+          "bosch-shem63w5xn-9001238146"
+        ]
+      }
+    },
+    {
+      "id": "X2",
+      "question": "How do I use the popcorn button?",
+      "filters": {
+        "model": "JES1095SMSS"
+      },
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "ge-jes1095smss"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-jes1095smss",
+            "pdf_page": 14,
+            "score": 22.9583
+          },
+          {
+            "doc_id": "ge-jes1095smss",
+            "pdf_page": 7,
+            "score": 15.3555
+          }
+        ],
+        "allowed_docs": [
+          "ge-jes1095smss"
+        ],
+        "observed_docs": [
+          "ge-jes1095smss"
+        ]
+      }
+    },
+    {
+      "id": "X3",
+      "question": "How do I use the sensor cook pad?",
+      "filters": {
+        "model": "NN-SN67HS"
+      },
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "panasonic-nn-sn67hs"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 10,
+            "score": 19.1171
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 18,
+            "score": 18.6275
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 18,
+            "score": 18.5088
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 12,
+            "score": 17.6664
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 16,
+            "score": 15.4255
+          },
+          {
+            "doc_id": "panasonic-nn-sn67hs",
+            "pdf_page": 13,
+            "score": 14.7348
+          }
+        ],
+        "allowed_docs": [
+          "panasonic-nn-sn67hs"
+        ],
+        "observed_docs": [
+          "panasonic-nn-sn67hs"
+        ]
+      }
+    },
+    {
+      "id": "X4",
+      "question": "My GTW335ASNWW washer lid is locked, what does the lock-out mean?",
+      "filters": {},
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "ge-gtw335asnww"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 13,
+            "score": 30.6864
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 13,
+            "score": 30.6524
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 15,
+            "score": 26.8248
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 8,
+            "score": 25.6678
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 15,
+            "score": 25.4935
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 11,
+            "score": 22.7295
+          }
+        ],
+        "allowed_docs": [
+          "ge-gtw335asnww"
+        ],
+        "observed_docs": [
+          "ge-gtw335asnww"
+        ]
+      }
+    },
+    {
+      "id": "C1",
+      "question": "My washer will not spin.",
+      "filters": {},
+      "expect": {
+        "kind": "clarify"
+      },
+      "passed": true,
+      "detail": {
+        "status": "needs_clarification",
+        "evidence": [],
+        "clarification": true
+      }
+    },
+    {
+      "id": "C2",
+      "question": "The dishwasher is leaking from the door.",
+      "filters": {},
+      "expect": {
+        "kind": "clarify"
+      },
+      "passed": true,
+      "detail": {
+        "status": "needs_clarification",
+        "evidence": [],
+        "clarification": true
+      }
+    },
+    {
+      "id": "C3",
+      "question": "Why is my refrigerator making a noise?",
+      "filters": {},
+      "expect": {
+        "kind": "clarify"
+      },
+      "passed": true,
+      "detail": {
+        "status": "needs_clarification",
+        "evidence": [],
+        "clarification": true
+      }
+    },
+    {
+      "id": "U1",
+      "question": "My WTW5000DW washer will not spin.",
+      "filters": {},
+      "expect": {
+        "kind": "unknown_model"
+      },
+      "passed": true,
+      "detail": {
+        "status": "unknown_model",
+        "evidence": [],
+        "unknown_models": [
+          "WTW5000DW"
+        ]
+      }
+    },
+    {
+      "id": "U2",
+      "question": "How do I clean the lint filter?",
+      "filters": {
+        "model": "LRMVS3006S"
+      },
+      "expect": {
+        "kind": "unknown_model"
+      },
+      "passed": true,
+      "detail": {
+        "status": "unknown_model",
+        "evidence": [],
+        "unknown_models": [
+          "LRMVS3006S"
+        ]
+      }
+    },
+    {
+      "id": "A1",
+      "question": "What is the torque specification for the motor bolt?",
+      "filters": {},
+      "expect": {
+        "kind": "abstain"
+      },
+      "passed": true,
+      "detail": {
+        "status": "no_evidence",
+        "evidence": []
+      }
+    },
+    {
+      "id": "A2",
+      "question": "How do I rebuild the carburetor on a lawn mower?",
+      "filters": {},
+      "expect": {
+        "kind": "abstain"
+      },
+      "passed": true,
+      "detail": {
+        "status": "no_evidence",
+        "evidence": []
+      }
+    },
+    {
+      "id": "U3",
+      "question": "How do I clean the filter on ABC99999 washer?",
+      "filters": {},
+      "expect": {
+        "kind": "unknown_model"
+      },
+      "passed": true,
+      "detail": {
+        "status": "unknown_model",
+        "evidence": [],
+        "unknown_models": [
+          "ABC99999"
+        ]
+      }
+    },
+    {
+      "id": "U4",
+      "question": "How do I clean the lint filter?",
+      "filters": {
+        "model": "GTW335FAKE"
+      },
+      "expect": {
+        "kind": "unknown_model"
+      },
+      "passed": true,
+      "detail": {
+        "status": "unknown_model",
+        "evidence": [],
+        "unknown_models": [
+          "GTW335FAKE"
+        ]
+      }
+    },
+    {
+      "id": "U5",
+      "question": "How do I clean the lint filter on SHEM63W55N?",
+      "filters": {
+        "model": "GTD65EBSJWS"
+      },
+      "expect": {
+        "kind": "conflict"
+      },
+      "passed": true,
+      "detail": {
+        "status": "conflicting_models",
+        "evidence": []
+      }
+    },
+    {
+      "id": "A3",
+      "question": "How do I clean a carburetor?",
+      "filters": {
+        "model": "GTW335ASNWW"
+      },
+      "expect": {
+        "kind": "abstain"
+      },
+      "passed": true,
+      "detail": {
+        "status": "no_evidence",
+        "evidence": []
+      }
+    },
+    {
+      "id": "DW6",
+      "question": "How do I clean the dishwasher filter?",
+      "filters": {},
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "bosch-shem63w5xn-9001238146",
+          "ge-gdt545psjss"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 16,
+            "score": 23.9368
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 23.2213
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 16,
+            "score": 22.9704
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 30,
+            "score": 21.6234
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 17,
+            "score": 21.6234
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 31,
+            "score": 20.6723
+          }
+        ],
+        "allowed_docs": [
+          "bosch-shem63w5xn-9001238146",
+          "ge-gdt545psjss"
+        ],
+        "observed_docs": [
+          "bosch-shem63w5xn-9001238146",
+          "ge-gdt545psjss"
+        ]
+      }
+    }
+  ]
+}

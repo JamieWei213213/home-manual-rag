@@ -1,0 +1,4 @@
+# Runtime dependency.
+# The Codex bundled primary runtime already ships pypdf; any Python 3.10+ with
+# pypdf installed works. Flask/pytest are intentionally NOT required.
+pypdf>=5.0,<7.0

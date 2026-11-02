@@ -1,0 +1,93 @@
+refusing --max-requests 11: it must be between 1 and 10 (the only authorization on file).
+refusing --max-requests 0: it must be between 1 and 10 (the only authorization on file).
+refusing --max-tokens 701: it must be between 1 and 700.
+refusing --max-tokens 0: it must be between 1 and 700.
+..................................................................................invalid pdf header: b'this '
+EOF marker not found
+.....................................................127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 201 -
+127.0.0.1 - "POST /api/appliances/rename HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/appliances/remove HTTP/1.1" 200 -
+.127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+.127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 415 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 400 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 400 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 413 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 400 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 200 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+.127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+.127.0.0.1 - "GET /api/health HTTP/1.1" 403 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 400 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 200 -
+.127.0.0.1 - "HEAD /api/health HTTP/1.1" 200 -
+.127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+.127.0.0.1 - "GET / HTTP/1.1" 200 -
+.127.0.0.1 - "GET /manuals/alpha-washer HTTP/1.1" 200 -
+.127.0.0.1 - "GET /manuals/alpha-washer HTTP/1.1" 206 -
+.127.0.0.1 - "GET /api/meta HTTP/1.1" 200 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+127.0.0.1 - "POST /api/ask HTTP/1.1" 403 -
+.127.0.0.1 - "GET /manuals/..%2f..%2fapp.py HTTP/1.1" 400 -
+127.0.0.1 - "GET /manuals/%2e%2e%2f%2e%2e%2fREADME.md HTTP/1.1" 400 -
+127.0.0.1 - "GET /static/..%2fapp.py HTTP/1.1" 404 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 200 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 201 -
+127.0.0.1 - "POST /api/appliances/rename HTTP/1.1" 200 -
+127.0.0.1 - "POST /api/appliances/remove HTTP/1.1" 200 -
+.127.0.0.1 - "GET /static/app.js HTTP/1.1" 200 -
+127.0.0.1 - "GET /static/../app.py HTTP/1.1" 404 -
+.127.0.0.1 - "POST /api/ask HTTP/1.1" 415 -
+.127.0.0.1 - "GET /manuals/does-not-exist HTTP/1.1" 404 -
+127.0.0.1 - "GET /manuals/alpha-washer.exe HTTP/1.1" 400 -
+.127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 400 -
+.127.0.0.1 - "POST /api/appliances/add HTTP/1.1" 403 -
+.............
+----------------------------------------------------------------------
+Ran 176 tests in 2.996s
+
+OK
+refusing --live: generation is missing_key - HOME_MANUAL_ENABLE_GENERATION is set but DEEPSEEK_API_KEY is empty.
+[rejected_citations  ] FI1   validation=not_accepted usage=unknown
+[generated           ] FI1   validation=accepted usage=unknown
+[generated           ] FI1   validation=accepted usage=unknown
+[generated           ] FI2   validation=accepted usage=unknown
+[insufficient_evidence] FG1   validation=not_accepted usage=unknown
+[insufficient_evidence] FG2   validation=not_accepted usage=unknown
+[needs_clarification ] FG3   validation=not_accepted usage=unknown
+[insufficient_evidence] FG4   validation=not_accepted usage=unknown
+[insufficient_evidence] FG5   validation=not_accepted usage=unknown
+[insufficient_evidence] FG6   validation=not_accepted usage=unknown
+[needs_clarification ] FG7   validation=not_accepted usage=unknown
+[insufficient_evidence] FG8   validation=not_accepted usage=unknown
+[needs_clarification ] FG9   validation=not_accepted usage=unknown
+[generated           ] FI1   validation=accepted usage=unknown
+[generated           ] FI2   validation=accepted usage=unknown
+[generated           ] FI3   validation=accepted usage=unknown
+[generated           ] FI4   validation=accepted usage=unknown
+[-- ] FU1   skipped (no evidence)
+[-- ] FU2   skipped (no evidence)
+[-- ] FC1   skipped (no evidence)
+[-- ] FC2   skipped (no evidence)
+[-- ] FA1   skipped (no evidence)
+[-- ] FA2   skipped (no evidence)
+[-- ] FX1   skipped (no evidence)
+[error               ] FI1   validation=not_accepted usage=unknown
+[error               ] FI2   validation=not_accepted usage=unknown
+[generated           ] FI1   validation=accepted usage=yes
+[generated           ] FI1   validation=accepted usage=unknown
+[error               ] FI2   validation=not_accepted usage=unknown
+[error               ] FI3   validation=not_accepted usage=unknown

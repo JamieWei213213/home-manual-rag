@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local only: downloaded manufacturer manuals must never be published.
+data/manuals/*.pdf
+
+# Local-only household records (saved appliances) and any SQLite journal files.
+data/household.db
+data/household.db-journal
+data/household.db-wal
+data/household.db-shm
+
+# Secrets: the app reads these from the environment, never from the repo.
+.env
+.env.*
+!.env.example
+
+# Local backups and evidence scratch
+backups/
+
+# Regenerable build products
+data/index/
+tmp/
+evidence/raw/
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

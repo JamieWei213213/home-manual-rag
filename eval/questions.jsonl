@@ -1,0 +1,36 @@
+{"id":"W1","question":"How do I level the washer?","filters":{"category":"washer"},"expect":{"kind":"grounded","doc_id":"ge-gtw335asnww","page":22}}
+{"id":"W2","question":"Where do I add detergent in the washer?","filters":{"category":"washer"},"expect":{"kind":"grounded","doc_id":"ge-gtw335asnww","page":8}}
+{"id":"W3","question":"What is the four minute lock-out period on this washer?","filters":{},"expect":{"kind":"grounded","doc_id":"ge-gtw335asnww","page":13}}
+{"id":"W4","question":"How do I turn on Child Lock on the washer?","filters":{},"expect":{"kind":"grounded","doc_id":"samsung-wa45t3200aw","page":34}}
+{"id":"W5","question":"How do I select the water level on the top load washer?","filters":{},"expect":{"kind":"grounded","doc_id":"samsung-wa45t3200aw","page":32}}
+{"id":"D1","question":"How often should I clean the lint filter?","filters":{"category":"dryer"},"expect":{"kind":"grounded","answers":[{"doc_id":"ge-gtd45easjws","page":5},{"doc_id":"ge-gtd65ebsjws","page":10},{"doc_id":"ge-gtd65ebsjws","page":4}]}}
+{"id":"D2","question":"What does Sensor Dry do on the dryer?","filters":{"category":"dryer"},"expect":{"kind":"grounded","doc_id":"ge-gtd65ebsjws","page":8}}
+{"id":"D3","question":"How do I lock the dryer controls?","filters":{"category":"dryer"},"expect":{"kind":"grounded","doc_id":"ge-gtd65ebsjws","page":5}}
+{"id":"D4","question":"Where is Child Lock described on the dryer?","filters":{},"expect":{"kind":"grounded","doc_id":"samsung-dve45t6000w","page":42}}
+{"id":"D5","question":"How should the dryer be vented?","filters":{"category":"dryer"},"expect":{"kind":"grounded","doc_id":"ge-gtd45easjws","page":8}}
+{"id":"DW1","question":"How do I load the silverware basket?","filters":{"category":"dishwasher"},"expect":{"kind":"grounded","doc_id":"bosch-shem63w5xn-9001238146","page":16}}
+{"id":"DW2","question":"How do I clean the dishwasher filter?","filters":{"category":"dishwasher"},"expect":{"kind":"grounded","doc_id":"bosch-shem63w5xn-9001238146","page":30}}
+{"id":"DW3","question":"How often should the dishwasher filters be inspected and cleaned?","filters":{"category":"dishwasher"},"expect":{"kind":"grounded","doc_id":"ge-gdt545psjss","page":16}}
+{"id":"DW4","question":"How do I cancel a wash cycle on the dishwasher?","filters":{"category":"dishwasher"},"expect":{"kind":"grounded","doc_id":"ge-gdt545psjss","page":8}}
+{"id":"DW5","question":"How full should the rinse aid dispenser be filled?","filters":{},"expect":{"kind":"grounded","doc_id":"bosch-shem63w5xn-9001238146","page":11}}
+{"id":"M1","question":"How do I use the Popcorn pad on the microwave?","filters":{"category":"microwave"},"expect":{"kind":"grounded","doc_id":"ge-jes1095smss","page":14}}
+{"id":"M2","question":"What does the Sensor Cook pad do?","filters":{"category":"microwave"},"expect":{"kind":"grounded","doc_id":"panasonic-nn-sn67hs","page":10}}
+{"id":"M3","question":"How do I know if cookware is safe to use in the microwave?","filters":{"category":"microwave"},"expect":{"kind":"grounded","answers":[{"doc_id":"samsung-ms14k6000as","page":6},{"doc_id":"samsung-ms14k6000as","page":10},{"doc_id":"panasonic-nn-sn67hs","page":8}]}}
+{"id":"R1","question":"How do I adjust the freezer compartment temperature?","filters":{"category":"refrigerator"},"expect":{"kind":"grounded","doc_id":"ge-gne25jsk","page":8}}
+{"id":"R2","question":"Where are the Autofill pitcher instructions?","filters":{"category":"refrigerator"},"expect":{"kind":"grounded","doc_id":"samsung-rf23r6201sr","page":39}}
+{"id":"X1","question":"How do I clean the filter?","filters":{"model":"SHEM63W55N"},"expect":{"kind":"isolation","doc_ids":["bosch-shem63w5xn-9001238146"]}}
+{"id":"X2","question":"How do I use the popcorn button?","filters":{"model":"JES1095SMSS"},"expect":{"kind":"isolation","doc_ids":["ge-jes1095smss"]}}
+{"id":"X3","question":"How do I use the sensor cook pad?","filters":{"model":"NN-SN67HS"},"expect":{"kind":"isolation","doc_ids":["panasonic-nn-sn67hs"]}}
+{"id":"X4","question":"My GTW335ASNWW washer lid is locked, what does the lock-out mean?","filters":{},"expect":{"kind":"isolation","doc_ids":["ge-gtw335asnww"]}}
+{"id":"C1","question":"My washer will not spin.","filters":{},"expect":{"kind":"clarify"}}
+{"id":"C2","question":"The dishwasher is leaking from the door.","filters":{},"expect":{"kind":"clarify"}}
+{"id":"C3","question":"Why is my refrigerator making a noise?","filters":{},"expect":{"kind":"clarify"}}
+{"id":"U1","question":"My WTW5000DW washer will not spin.","filters":{},"expect":{"kind":"unknown_model"}}
+{"id":"U2","question":"How do I clean the lint filter?","filters":{"model":"LRMVS3006S"},"expect":{"kind":"unknown_model"}}
+{"id":"A1","question":"What is the torque specification for the motor bolt?","filters":{},"expect":{"kind":"abstain"}}
+{"id":"A2","question":"How do I rebuild the carburetor on a lawn mower?","filters":{},"expect":{"kind":"abstain"}}
+{"id":"U3","question":"How do I clean the filter on ABC99999 washer?","filters":{},"expect":{"kind":"unknown_model"}}
+{"id":"U4","question":"How do I clean the lint filter?","filters":{"model":"GTW335FAKE"},"expect":{"kind":"unknown_model"}}
+{"id":"U5","question":"How do I clean the lint filter on SHEM63W55N?","filters":{"model":"GTD65EBSJWS"},"expect":{"kind":"conflict"}}
+{"id":"A3","question":"How do I clean a carburetor?","filters":{"model":"GTW335ASNWW"},"expect":{"kind":"abstain"}}
+{"id":"DW6","question":"How do I clean the dishwasher filter?","filters":{},"expect":{"kind":"isolation","doc_ids":["bosch-shem63w5xn-9001238146","ge-gdt545psjss"]}}

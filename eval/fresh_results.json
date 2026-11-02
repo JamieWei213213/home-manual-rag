@@ -1,0 +1,974 @@
+{
+  "generated_at": "2026-10-12T20:08:07+00:00",
+  "set": "fresh",
+  "questions_file": "eval\\fresh_questions.jsonl",
+  "index_built_at": "2026-10-07T19:57:20+00:00",
+  "documents": [
+    "bosch-shem63w5xn-9001238146",
+    "ge-gdt545psjss",
+    "ge-gtd45easjws",
+    "ge-gtd65ebsjws",
+    "samsung-dve45t6000w",
+    "ge-jes1095smss",
+    "panasonic-nn-sn67hs",
+    "samsung-ms14k6000as",
+    "ge-gne25jsk",
+    "samsung-rf23r6201sr",
+    "ge-gtw335asnww",
+    "samsung-wa45t3200aw"
+  ],
+  "summary": {
+    "cases": 20,
+    "passed": 20,
+    "failed": 0,
+    "pass_rate": 1.0,
+    "by_kind": {
+      "grounded": {
+        "passed": 9,
+        "total": 9
+      },
+      "isolation": {
+        "passed": 4,
+        "total": 4
+      },
+      "unknown_model": {
+        "passed": 2,
+        "total": 2
+      },
+      "clarify": {
+        "passed": 2,
+        "total": 2
+      },
+      "abstain": {
+        "passed": 2,
+        "total": 2
+      },
+      "conflict": {
+        "passed": 1,
+        "total": 1
+      }
+    },
+    "page_tolerance": 1,
+    "exact_page_tolerance": 0,
+    "metrics": {
+      "grounded_document_hit_at_k": {
+        "hits": 9,
+        "cases": 9,
+        "rate": 1.0
+      },
+      "grounded_exact_expected_page_hit": {
+        "hits": 9,
+        "cases": 9,
+        "rate": 1.0
+      },
+      "grounded_expected_page_hit_within_1": {
+        "hits": 9,
+        "cases": 9,
+        "rate": 1.0
+      },
+      "grounded_top1_document_accuracy": {
+        "hits": 9,
+        "cases": 9,
+        "rate": 1.0
+      },
+      "abstention_accuracy": {
+        "hits": 2,
+        "cases": 2,
+        "rate": 1.0
+      },
+      "clarification_accuracy": {
+        "hits": 2,
+        "cases": 2,
+        "rate": 1.0
+      },
+      "model_isolation_accuracy": {
+        "hits": 4,
+        "cases": 4,
+        "rate": 1.0
+      },
+      "unknown_model_accuracy": {
+        "hits": 2,
+        "cases": 2,
+        "rate": 1.0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "FG1",
+      "question": "What does the Deep Fill option do on the washer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtw335asnww",
+        "page": 13,
+        "provenance": {
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 13,
+          "printed_page": null,
+          "excerpt": "Select the Deep Fill feature for loads where extra water is needed.",
+          "source": "data/index/chunks.json, GE GTW335ASNWW washer, PDF page 13; no printed page label was extracted for this page"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 13,
+            "score": 28.7326
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 13,
+            "score": 24.7026
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 14,
+            "score": 22.923
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 15,
+            "score": 21.8212
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 10,
+            "score": 19.9557
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 25,
+            "score": 19.2294
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "page": 13
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtw335asnww",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG2",
+      "question": "Where do I put the fabric softener in the top load washer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "ge-gtw335asnww",
+        "page": 14,
+        "provenance": {
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 14,
+          "printed_page": null,
+          "excerpt": "The fabric softener dispenser automatically",
+          "source": "data/index/chunks.json, GE GTW335ASNWW washer, PDF page 14; no printed page label was extracted for this page"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 14,
+            "score": 37.5281
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 14,
+            "score": 35.126
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 8,
+            "score": 32.4443
+          },
+          {
+            "doc_id": "samsung-wa45t3200aw",
+            "pdf_page": 41,
+            "score": 30.7547
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 25,
+            "score": 30.1409
+          },
+          {
+            "doc_id": "ge-gtw335asnww",
+            "pdf_page": 25,
+            "score": 29.861
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "ge-gtw335asnww",
+            "page": 14
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "ge-gtw335asnww",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG3",
+      "question": "How do I add rinse aid to the dishwasher?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "bosch-shem63w5xn-9001238146",
+        "page": 12,
+        "provenance": {
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 12,
+          "printed_page": "12",
+          "excerpt": "To achieve proper drying, always use a liquid rinse aid",
+          "source": "data/index/chunks.json, Bosch SHEM63W5xN dishwasher, PDF page 12 (the page prints 12)"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 12,
+            "score": 27.4055
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 11,
+            "score": 26.0689
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 34,
+            "score": 26.0176
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 34,
+            "score": 25.7203
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 9,
+            "score": 25.0317
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 9,
+            "score": 24.5025
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "page": 12
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "bosch-shem63w5xn-9001238146",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG4",
+      "question": "What does the half load option do on the dishwasher?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "bosch-shem63w5xn-9001238146",
+        "page": 24,
+        "provenance": {
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 24,
+          "printed_page": "70",
+          "excerpt": "Half Load Can reduce water consumption when washing small, lightly soiled loads",
+          "source": "data/index/chunks.json, Bosch SHEM63W5xN dishwasher cycle options, PDF page 24 (the page itself prints 70; an earlier note wrongly called 24 the printed page)"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 24,
+            "score": 27.5696
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 34,
+            "score": 18.262
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 3,
+            "score": 18.0979
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 6,
+            "score": 18.0134
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 23,
+            "score": 17.3453
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 7,
+            "score": 17.3102
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "page": 24
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "bosch-shem63w5xn-9001238146",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG5",
+      "question": "What does the Delay Start option do on the dishwasher?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "answers": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "page": 24
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "page": 7
+          }
+        ],
+        "doc_id": "bosch-shem63w5xn-9001238146",
+        "page": 24,
+        "provenance": {
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 24,
+          "printed_page": "70",
+          "excerpt": "Delay Allows you to delay the start time of your dishwasher up to 24 hours.",
+          "source": "data/index/chunks.json, Bosch cycle options PDF page 24 (prints 70); the GE GDT545PSJSS equivalent is PDF page 7 (prints 5). Both are accepted answers."
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 24,
+            "score": 29.6325
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 7,
+            "score": 29.4126
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 7,
+            "score": 29.1208
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 27,
+            "score": 27.8475
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 8,
+            "score": 27.6195
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 11,
+            "score": 25.7664
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "page": 24
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "page": 7
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "bosch-shem63w5xn-9001238146",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG6",
+      "question": "What does the Add 30 Seconds button do on the microwave?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-ms14k6000as",
+        "page": 9,
+        "provenance": {
+          "doc_id": "samsung-ms14k6000as",
+          "pdf_page": 9,
+          "printed_page": null,
+          "excerpt": "Touch ADD 30 SEC (One Minute +). to start the microwave oven at 100 % power for 30 seconds",
+          "source": "data/index/chunks.json, Samsung MS14K6000AS microwave, PDF page 9; no printed page label was extracted for this page"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "pdf_page": 9,
+            "score": 32.6556
+          },
+          {
+            "doc_id": "ge-jes1095smss",
+            "pdf_page": 15,
+            "score": 17.5844
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-ms14k6000as",
+            "page": 9
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-ms14k6000as",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG7",
+      "question": "How do I change the refrigerator temperature?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-rf23r6201sr",
+        "page": 37,
+        "provenance": {
+          "doc_id": "samsung-rf23r6201sr",
+          "pdf_page": 37,
+          "printed_page": null,
+          "excerpt": "When you change the temperature on the panel, the panel displays the actual temperature",
+          "source": "data/index/chunks.json, Samsung RF23R6201SR refrigerator operations, PDF page 37; no printed page label was extracted for this page"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 37,
+            "score": 22.9792
+          },
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 46,
+            "score": 19.9572
+          },
+          {
+            "doc_id": "ge-gne25jsk",
+            "pdf_page": 44,
+            "score": 19.6244
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 40,
+            "score": 15.285
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "page": 37
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-rf23r6201sr",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG8",
+      "question": "What does the Eco Dry function do on the dryer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-dve45t6000w",
+        "page": 36,
+        "provenance": {
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 36,
+          "printed_page": null,
+          "excerpt": "With the Eco Dry activated, drying takes a longer time but power consumption",
+          "source": "data/index/chunks.json, Samsung DVE45T6000W dryer operations, PDF page 36; no printed page label was extracted for this page"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 36,
+            "score": 23.208
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 36,
+            "score": 20.7815
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 45,
+            "score": 19.9734
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 45,
+            "score": 19.753
+          },
+          {
+            "doc_id": "ge-gtd45easjws",
+            "pdf_page": 6,
+            "score": 19.7045
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 8,
+            "score": 19.6016
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "page": 36
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-dve45t6000w",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FG9",
+      "question": "How do I use the Wrinkle Prevent option on the dryer?",
+      "filters": {},
+      "expect": {
+        "kind": "grounded",
+        "doc_id": "samsung-dve45t6000w",
+        "page": 36,
+        "provenance": {
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 36,
+          "printed_page": null,
+          "excerpt": "Wrinkle Prevent provides approximately 180 minutes of intermittent tumbling in unheated air",
+          "source": "data/index/chunks.json, Samsung DVE45T6000W dryer operations, PDF page 36; no printed page label was extracted for this page"
+        }
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 42,
+            "score": 22.9266
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 42,
+            "score": 21.9081
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 40,
+            "score": 21.0586
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 11,
+            "score": 19.882
+          },
+          {
+            "doc_id": "ge-gtd65ebsjws",
+            "pdf_page": 5,
+            "score": 19.8334
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 36,
+            "score": 19.6253
+          }
+        ],
+        "accepted_answers": [
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "page": 36
+          }
+        ],
+        "doc_hit": true,
+        "page_hit": true,
+        "exact_page_hit": true,
+        "top_doc": "samsung-dve45t6000w",
+        "top1_doc_hit": true
+      }
+    },
+    {
+      "id": "FI1",
+      "question": "How should I clean the dryer lint screen?",
+      "filters": {
+        "model": "DVE45T6000W"
+      },
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "samsung-dve45t6000w"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 9,
+            "score": 30.2718
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 8,
+            "score": 28.0791
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 48,
+            "score": 27.9961
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 34,
+            "score": 22.7504
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 34,
+            "score": 22.5111
+          },
+          {
+            "doc_id": "samsung-dve45t6000w",
+            "pdf_page": 46,
+            "score": 20.9038
+          }
+        ],
+        "allowed_docs": [
+          "samsung-dve45t6000w"
+        ],
+        "observed_docs": [
+          "samsung-dve45t6000w"
+        ]
+      }
+    },
+    {
+      "id": "FI2",
+      "question": "Where do I add rinse aid?",
+      "filters": {
+        "model": "SHEM63W55N"
+      },
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "bosch-shem63w5xn-9001238146"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 12,
+            "score": 21.2677
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 11,
+            "score": 19.5076
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 34,
+            "score": 19.1811
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 34,
+            "score": 17.6628
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 11,
+            "score": 15.3988
+          },
+          {
+            "doc_id": "bosch-shem63w5xn-9001238146",
+            "pdf_page": 12,
+            "score": 15.2693
+          }
+        ],
+        "allowed_docs": [
+          "bosch-shem63w5xn-9001238146"
+        ],
+        "observed_docs": [
+          "bosch-shem63w5xn-9001238146"
+        ]
+      }
+    },
+    {
+      "id": "FI3",
+      "question": "How do I remove the ice bucket?",
+      "filters": {
+        "model": "RF23R6201SR"
+      },
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "samsung-rf23r6201sr"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 56,
+            "score": 24.2063
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 58,
+            "score": 23.9914
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 56,
+            "score": 22.1647
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 64,
+            "score": 21.4649
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 59,
+            "score": 21.1606
+          },
+          {
+            "doc_id": "samsung-rf23r6201sr",
+            "pdf_page": 73,
+            "score": 16.0964
+          }
+        ],
+        "allowed_docs": [
+          "samsung-rf23r6201sr"
+        ],
+        "observed_docs": [
+          "samsung-rf23r6201sr"
+        ]
+      }
+    },
+    {
+      "id": "FI4",
+      "question": "What does the Steam prewash option do?",
+      "filters": {
+        "model": "GDT545PSJSS"
+      },
+      "expect": {
+        "kind": "isolation",
+        "doc_ids": [
+          "ge-gdt545psjss"
+        ]
+      },
+      "passed": true,
+      "detail": {
+        "status": "ok",
+        "evidence": [
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 7,
+            "score": 24.7928
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 7,
+            "score": 24.3481
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 29,
+            "score": 21.8389
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 29,
+            "score": 20.3827
+          },
+          {
+            "doc_id": "ge-gdt545psjss",
+            "pdf_page": 51,
+            "score": 13.6814
+          }
+        ],
+        "allowed_docs": [
+          "ge-gdt545psjss"
+        ],
+        "observed_docs": [
+          "ge-gdt545psjss"
+        ]
+      }
+    },
+    {
+      "id": "FU1",
+      "question": "My WDF520PADM dishwasher will not drain.",
+      "filters": {},
+      "expect": {
+        "kind": "unknown_model"
+      },
+      "passed": true,
+      "detail": {
+        "status": "unknown_model",
+        "evidence": [],
+        "unknown_models": [
+          "WDF520PADM"
+        ]
+      }
+    },
+    {
+      "id": "FU2",
+      "question": "How do I reset the filter light on KDTM404KPS?",
+      "filters": {},
+      "expect": {
+        "kind": "unknown_model"
+      },
+      "passed": true,
+      "detail": {
+        "status": "unknown_model",
+        "evidence": [],
+        "unknown_models": [
+          "KDTM404KPS"
+        ]
+      }
+    },
+    {
+      "id": "FC1",
+      "question": "The washer is not draining.",
+      "filters": {},
+      "expect": {
+        "kind": "clarify"
+      },
+      "passed": true,
+      "detail": {
+        "status": "needs_clarification",
+        "evidence": [],
+        "clarification": true
+      }
+    },
+    {
+      "id": "FC2",
+      "question": "My dryer will not heat up.",
+      "filters": {},
+      "expect": {
+        "kind": "clarify"
+      },
+      "passed": true,
+      "detail": {
+        "status": "needs_clarification",
+        "evidence": [],
+        "clarification": true
+      }
+    },
+    {
+      "id": "FA1",
+      "question": "How do I replace the timing belt on the engine?",
+      "filters": {},
+      "expect": {
+        "kind": "abstain"
+      },
+      "passed": true,
+      "detail": {
+        "status": "no_evidence",
+        "evidence": []
+      }
+    },
+    {
+      "id": "FA2",
+      "question": "How do I bleed the brake lines on a riding mower?",
+      "filters": {},
+      "expect": {
+        "kind": "abstain"
+      },
+      "passed": true,
+      "detail": {
+        "status": "no_evidence",
+        "evidence": []
+      }
+    },
+    {
+      "id": "FX1",
+      "question": "How do I add rinse aid on the RF23R6201SR?",
+      "filters": {
+        "model": "SHEM63W55N"
+      },
+      "expect": {
+        "kind": "conflict"
+      },
+      "passed": true,
+      "detail": {
+        "status": "conflicting_models",
+        "evidence": []
+      }
+    }
+  ]
+}

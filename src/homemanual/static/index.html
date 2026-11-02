@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Appliance Manual Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">HM</span>
+        <div class="brand-text">
+          <h1>Home Appliance Manual Assistant</h1>
+          <p class="sub">
+            Ask about your washer, dryer, dishwasher, refrigerator or microwave. Search shows
+            passages from the official owner's manual downloaded here, with the page
+            it came from.
+          </p>
+        </div>
+      </div>
+      <div class="chips" id="status-chips"></div>
+    </header>
+
+    <main>
+      <div class="column">
+        <section class="panel" aria-labelledby="home-heading">
+          <div class="panel-head">
+            <h2 id="home-heading">My home</h2>
+            <span class="pill" id="home-count"></span>
+          </div>
+          <p class="muted">
+            Save the appliances you own so every answer comes from that exact model's manual.
+            These records stay on this computer.
+          </p>
+
+          <form id="appliance-form" class="appliance-form" autocomplete="off">
+            <div class="field-row">
+              <label class="field">
+                <span>Name</span>
+                <input
+                  type="text"
+                  id="appliance-name"
+                  maxlength="40"
+                  placeholder="Kitchen dishwasher"
+                />
+              </label>
+              <label class="field">
+                <span>Appliance type</span>
+                <select id="appliance-category"></select>
+              </label>
+            </div>
+            <div class="field-row">
+              <label class="field">
+                <span>Exact model</span>
+                <select id="appliance-model"></select>
+              </label>
+              <div class="field field-action">
+                <span aria-hidden="true">&nbsp;</span>
+                <button type="submit" id="appliance-add" class="btn">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                  <span>Save appliance</span>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div id="appliance-status" aria-live="polite"></div>
+          <ul id="appliance-list" class="appliance-list"></ul>
+        </section>
+
+        <section class="panel" aria-labelledby="ask-heading">
+          <div class="panel-head">
+            <h2 id="ask-heading">Ask the manuals</h2>
+          </div>
+
+          <form id="ask-form" autocomplete="off">
+            <label class="field">
+              <span>Which appliance are you asking about?</span>
+              <select id="appliance"></select>
+            </label>
+            <div class="field-row" id="filter-row">
+              <label class="field">
+                <span>Appliance type</span>
+                <select id="category"></select>
+              </label>
+              <label class="field">
+                <span>Model</span>
+                <select id="model"></select>
+              </label>
+            </div>
+            <label class="field">
+              <span>Your question</span>
+              <textarea
+                id="question"
+                rows="2"
+                maxlength="500"
+                placeholder="How do I run the Clean Washer cycle?"
+              ></textarea>
+            </label>
+            <div class="actions">
+              <button type="submit" id="ask-button" class="btn primary">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+                </svg>
+                <span>Search manuals</span>
+              </button>
+              <label class="toggle" id="generate-wrap" hidden>
+                <input type="checkbox" id="generate" />
+                <span>Also write a short answer (DeepSeek)</span>
+              </label>
+            </div>
+            <div class="examples" id="examples"></div>
+          </form>
+
+          <div id="result" class="result" aria-live="polite"></div>
+        </section>
+      </div>
+
+      <aside class="panel library" aria-labelledby="library-heading">
+        <h2 id="library-heading">Source library</h2>
+        <p class="muted" id="library-summary"></p>
+        <div id="library-list"></div>
+        <details id="blocked-details" class="blocked" hidden>
+          <summary>Sources that could not be downloaded</summary>
+          <ul id="blocked-list"></ul>
+        </details>
+      </aside>
+    </main>
+
+    <footer>
+      <span id="footer-status"></span>
+    </footer>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

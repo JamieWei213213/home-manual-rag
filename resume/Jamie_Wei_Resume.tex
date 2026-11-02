@@ -1,0 +1,214 @@
+\documentclass[10pt,letterpaper]{article}
+ 
+\usepackage[
+  ignoreheadfoot,
+  top=1.10cm,
+  bottom=1.10cm,
+  left=1.65cm,
+  right=1.65cm,
+  footskip=0.8cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0,0,0}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage[
+  pdftitle={Jamie Wei Resume},
+  pdfauthor={Jamie Wei},
+  pdfcreator={LaTeX},
+  colorlinks=true,
+  urlcolor=primaryColor
+]{hyperref}
+\usepackage{bookmark}
+\usepackage{changepage}
+\usepackage{needspace}
+\usepackage{iftex}
+ 
+\ifPDFTeX
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\fi
+ 
+\usepackage{charter}
+ 
+\raggedright
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\pagenumbering{gobble}
+ 
+\titleformat{\section}
+  {\needspace{3\baselineskip}\bfseries\large}
+  {}{0pt}{}
+  [\vspace{1pt}\titlerule]
+\titlespacing{\section}{0pt}{0.12cm}{0.07cm}
+ 
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+ 
+\newenvironment{highlights}{
+  \begin{itemize}[
+    topsep=0.015cm,
+    parsep=0cm,
+    partopsep=0pt,
+    itemsep=0.01cm,
+    leftmargin=12pt
+  ]
+}{
+  \end{itemize}
+}
+ 
+\newenvironment{onecolentry}{
+  \begin{adjustwidth}{0cm}{0cm}
+}{
+  \end{adjustwidth}
+}
+ 
+\begin{document}
+\fontsize{9.5pt}{10.8pt}\selectfont
+ 
+\begin{center}
+  {\Huge\textbf{Jamie Wei}}\\[3pt]
+  U.S. Citizen
+  \quad|\quad
+  \href{tel:+16787620657}{(678) 762-0657}
+  \quad|\quad
+  \href{mailto:Jamiejwei@gmail.com}{Jamiejwei@gmail.com}\\[3pt]
+  \href{https://www.linkedin.com/in/jamie-wei-5a4a31378/}{linkedin.com/in/jamie-wei-5a4a31378}
+  \quad|\quad
+  \href{https://github.com/JamieWei213213}{github.com/JamieWei213213}
+\end{center}
+ 
+\section{Education}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{University of Southern California}
+  & \textit{Jan 2025 -- Dec 2026 (Expected)}\\
+  Master of Science in Applied Data Science & \\
+\end{tabularx}
+ 
+\vspace{0.03cm}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{University of California San Diego}
+  & \textit{Sep 2019 -- Mar 2023}\\
+  Bachelor of Science in Cognitive Science, Machine Learning Specialization & \\
+\end{tabularx}
+ 
+\section{Professional Experience}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{Continuum Health} -- AI Engineer
+  & \textit{May 2026 -- Present}
+\end{tabularx}
+ 
+\begin{onecolentry}
+\begin{highlights}
+  \item Built a full-stack clinical operations platform replacing a legacy treatment-authorization system for a \textbf{130+ patient} care center, spanning \textbf{8 clinical disciplines} (React/TypeScript, FastAPI, PostgreSQL, Docker, role-based access control).
+  \item Built a care-plan generator that compiles records from 8 disciplines into one authorization packet, cutting assembly time from \textbf{40+ hours to under 5 minutes} per cycle.
+  \item Built speech-to-text dictation and LLM-drafted SOAP notes with a clinician review gate, so no AI-generated content reaches a patient chart without sign-off.
+\end{highlights}
+\end{onecolentry}
+ 
+\vspace{0.04cm}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{Greenpoint Global} -- Data Engineering Intern
+  & \textit{Jun 2026 -- Jul 2026}
+\end{tabularx}
+ 
+\begin{onecolentry}
+\begin{highlights}
+  \item Built Python and SQL batch ETL pipelines that ingested and standardized \textbf{20M+ financial records} from 3 sources (Apollo, FFIEC, NCUA), reconciling differing schemas into one unified dataset.
+  \item Designed a \textbf{20-table dimensional model} (fact and dimension tables) powering Power BI dashboards and DAX measures that helped leadership prioritize \textbf{30+ banking and portfolio opportunities}.
+  \item Automated validation checks for missing, duplicate, and inconsistent records in repeatable full-refresh runs, cutting recurring dataset preparation from \textbf{about 6 hours to under 1 hour}.
+\end{highlights}
+\end{onecolentry}
+ 
+\vspace{0.04cm}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{Eveoy} -- Software Engineering Intern
+  & \textit{Sep 2025 -- Nov 2025}
+\end{tabularx}
+ 
+\begin{onecolentry}
+\begin{highlights}
+  \item Built SQL-backed Python REST API services for advertiser-facing workflows, adding API and SQL data-integrity checks that caught malformed records before they reached users.
+  \item Fixed a broken campaign-configuration workflow by correcting a missing request field and ID mapping, eliminating failed submissions across \textbf{25+ regression tests}.
+\end{highlights}
+\end{onecolentry}
+ 
+\section{Projects}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{AIStora -- Secure LLM Data Analytics Platform (Deployed on AWS)}\\[1pt]
+  \textit{Python, Claude API, PostgreSQL, AWS, Terraform, Docker, GitHub Actions, Flask} & \\
+\end{tabularx}
+ 
+\begin{onecolentry}
+\begin{highlights}
+  \item Built and deployed an LLM agent that plans across \textbf{11 typed tools} so accounting teams can query sensitive client CSVs (up to \textbf{250K rows}) without raw rows ever reaching the LLM; benchmarked \textbf{100+ finance queries} at \textbf{sub-2-second p95}.
+  \item Defined all infrastructure in Terraform: encrypted S3, private RDS PostgreSQL, ECS/Fargate, and CloudWatch in a two-AZ VPC with least-privilege IAM roles.
+  \item Automated CI/CD with GitHub Actions via OIDC and ECR, with rolling deployments and rollback.
+\end{highlights}
+\end{onecolentry}
+ 
+\vspace{0.04cm}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{Home Appliance Manual Assistant -- RAG Prototype}\\[1pt]
+  \textit{Python, SQLite, BM25, pypdf, JavaScript, DeepSeek API (Optional)} & \\
+\end{tabularx}
+
+\begin{onecolentry}
+\begin{highlights}
+  \item Built a local manual assistant with \textbf{SQLite-backed appliance profiles} and BM25 retrieval over \textbf{12 official PDFs} and \textbf{2,714 page-aware passages}, linking results to supporting PDF pages.
+  \item Implemented an optional DeepSeek RAG pipeline with model filtering, citation and source-quote validation, and bounded API requests; tested generation behavior with injected responses, pending live API evaluation.
+  \item Passed \textbf{176 automated tests} and \textbf{56 author-created retrieval cases}; retrieved the expected manual within the top 6 for \textbf{20/20 development questions}, with \textbf{75\% ranked first}.
+\end{highlights}
+\end{onecolentry}
+ 
+\vspace{0.04cm}
+ 
+\begin{tabularx}{\textwidth}{Xr}
+  \textbf{Autonomous Multi-Agent Trading System}\\[1pt]
+  \textit{Python, Claude API, Parquet, PostgreSQL, Docker, GitHub Actions, Alpaca API, Data Bricks} & \\
+\end{tabularx}
+ 
+\begin{onecolentry}
+\begin{highlights}
+  \item Developed a PySpark batch pipeline for Databricks with bronze, silver, and gold Delta table layers, preserving raw market data, quarantining invalid records, and generating features and forward-return labels for backtesting.
+  \item Implemented duplicate handling, market-session validation, gap-aware features, and versioned datasets; validated Spark transformations locally against the existing Python pipeline.
+  \item Built a multi-agent paper-trading workflow combining quantitative screening, LLM research, and deterministic risk checks, with backtesting and agent evaluation.
+\end{highlights}
+\end{onecolentry}
+ 
+\section{Technical Skills}
+ 
+\begin{onecolentry}
+  \textbf{Languages:} Python, SQL, TypeScript, JavaScript
+ 
+  \vspace{1pt}
+  \textbf{AI \& LLM:} Claude API, Agentic Workflows, Tool Calling, RAG, Hybrid Search, Vector Search, Retrieval Evaluation
+ 
+  \vspace{1pt}
+  \textbf{Data Engineering:} ETL, Batch Pipelines, Dimensional Modeling, Data Validation, Data Quality, Pandas, NumPy
+ 
+  \vspace{1pt}
+  \textbf{Databases \& Storage:} PostgreSQL, SQLite, Parquet, Amazon S3, Amazon RDS, Qdrant
+ 
+  \vspace{1pt}
+  \textbf{Cloud \& DevOps:} AWS (ECS/Fargate, S3, RDS, ECR, IAM, VPC, CloudWatch), Terraform, Docker, GitHub Actions CI/CD, Git
+ 
+  \vspace{1pt}
+  \textbf{Backend \& BI:} FastAPI, Flask, React, REST APIs, SQLAlchemy, Pytest, Power BI, DAX
+\end{onecolentry}
+ 
+\end{document}
+ 

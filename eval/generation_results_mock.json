@@ -1,0 +1,783 @@
+{
+  "generated_at": "2026-10-12T20:08:07+00:00",
+  "mode": "mocked",
+  "model": "fixture-transport",
+  "requests_attempted": 0,
+  "fixture_mismatches": 0,
+  "summary": {
+    "status_counts": {
+      "rejected_citations": 6,
+      "needs_clarification": 3,
+      "generated": 3,
+      "insufficient_evidence": 1,
+      "skipped": 7
+    },
+    "cases_with_reported_usage": 0,
+    "cases_with_unknown_usage": 13,
+    "usage_totals": null
+  },
+  "note": "Fully offline fixture run: no provider was contacted and no cost was incurred.",
+  "cases": 20,
+  "results": [
+    {
+      "id": "FG1",
+      "question": "What does the Deep Fill option do on the washer?",
+      "selected_model": null,
+      "single_doc_required": false,
+      "evidence_docs": [
+        "ge-gtw335asnww"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 13,
+          "has_warning": false,
+          "excerpt": "49-3000373 Rev 1 13 Cycle Options - Continued Deep Fill Select the Deep Fill feature for loads where extra water is needed. The Deep Fill feature is recommended for special case loads only, not for typical use. Press the Deep Fill button on"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 13,
+          "has_warning": false,
+          "excerpt": "extra fill, press the Deep Fill button again and the water will stop. Auto Soak This option begins with a brief agitation, soaks for a specified period of time, then moves through the rest of the cycle automatically. 2nd Rinse When you use "
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 14,
+          "has_warning": false,
+          "excerpt": "on your previous washer. This is normal. The agitator cap fits into the top of the agitator. If it accidentally comes off, simply put it back on. The fabric softener dispenser automatically releases liquid fabric softener at the proper time"
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 15,
+          "has_warning": false,
+          "excerpt": "on larger loads. To add items after washer has started, press Start/Pause if the lid is locked; wait until the Lid Lock light is OFF and the Unlocked light is ON before attempting to open the lid. Lift the lid and submerge additional items "
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 10,
+          "has_warning": false,
+          "excerpt": "10 49-3000373 Rev 1 D Wash Cycles - Cycle Selector Knob - Continued Getting started USING THE WASHER NOTE: Water temperature selections are embedded within the wash cycles. For the Colors Cycle Normal, there are multiple temperature selecti"
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 25,
+          "has_warning": false,
+          "excerpt": "49-3000373 Rev 1 25 Problem Possible Causes What To Do Washer spins and pauses at the beginning of cycles This is normal The washer is sensing the load. Washer pauses during wash cycle The Soak Option was chosen This is normal. The washer a"
+        }
+      ],
+      "status": "rejected_citations",
+      "detail": "The generated text was discarded: the answer contained no [S#] citations; these sentences or list items carried no [S#] citation: #1 (Just run it on the normal setting.). Only the retrieved evidence is shown.",
+      "problems": [
+        "the answer contained no [S#] citations",
+        "these sentences or list items carried no [S#] citation: #1 (Just run it on the normal setting.)"
+      ],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG2",
+      "question": "Where do I put the fabric softener in the top load washer?",
+      "selected_model": null,
+      "single_doc_required": false,
+      "evidence_docs": [
+        "ge-gtw335asnww",
+        "samsung-wa45t3200aw"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 14,
+          "has_warning": false,
+          "excerpt": "14 49-3000373 Rev 1 Automatic Load Sensing This determines the correct agitate profile, agitate duration and amount of water suited to the size and type of load placed in the washer. The washer will not start the wash cycle or fill with wat"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 14,
+          "has_warning": false,
+          "excerpt": "on your previous washer. This is normal. The agitator cap fits into the top of the agitator. If it accidentally comes off, simply put it back on. The fabric softener dispenser automatically releases liquid fabric softener at the proper time"
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 8,
+          "has_warning": false,
+          "excerpt": "and complete the cycle normally. In some cases, the washer may not be able to balance the load and spin up to full s peed. If you notice the load is more wet than normal at the end of the cycle, redistribute the load evenly in the wash bask"
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "samsung-wa45t3200aw",
+          "pdf_page": 41,
+          "has_warning": false,
+          "excerpt": "English 41 Loading the fabric softener compartment C 1. Pour the recommended amount of liquid fabric softener into the softener compartment (C). For smaller loads, use less than one capful. 2. Dilute the fabric softener with water until it "
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 25,
+          "has_warning": false,
+          "excerpt": "yellowed clothes Detergent amount Be sure to follow detergent manufacturer\u2019s directions. Hard water Use a water conditioner or install a water softener. Water is not hot enough Make sure water heater is delivering water at 120\u00b0F\u2013140\u00b0F (48\u00b0C"
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "ge-gtw335asnww",
+          "pdf_page": 25,
+          "has_warning": false,
+          "excerpt": "(on some models) This is normal. Several options will change other options to maximize washer performance. Basket seems loose Basket moves or rotates freely Washer basket does not have a traditional brake. Washer basket will move freely. Th"
+        }
+      ],
+      "status": "rejected_citations",
+      "detail": "The generated text was discarded: these sentences or list items carried no verbatim quote from the passage they cite: #1 (Run the normal cycle [S1].). Only the retrieved evidence is shown.",
+      "problems": [
+        "these sentences or list items carried no verbatim quote from the passage they cite: #1 (Run the normal cycle [S1].)"
+      ],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG3",
+      "question": "How do I add rinse aid to the dishwasher?",
+      "selected_model": null,
+      "single_doc_required": true,
+      "evidence_docs": [
+        "bosch-shem63w5xn-9001238146",
+        "ge-gdt545psjss"
+      ],
+      "presented_sources": [],
+      "sources": [],
+      "status": "needs_clarification",
+      "detail": "This is a procedure or a fault, and the passages come from more than one manual. Choose one model so the steps are not merged across appliances.",
+      "problems": [],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG4",
+      "question": "What does the half load option do on the dishwasher?",
+      "selected_model": null,
+      "single_doc_required": false,
+      "evidence_docs": [
+        "bosch-shem63w5xn-9001238146",
+        "ge-gdt545psjss"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 24,
+          "has_warning": false,
+          "excerpt": "en-us Dishwasher Cycle Options 24 0 Dishwasher Cycle Options Dishwasher Cycle Options Delay Allows you to delay the start time of your dishwasher up to 24 hours. Half Load Can reduce water consumption when washing small, lightly soiled load"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 34,
+          "has_warning": false,
+          "excerpt": "~ \"Rinse Aid\" on page 12 Dishes are not getting dry enough Note: Plastic or Teflon do not typically dry as well as other items due to their inherent properties. Rinse aid dispenser 9* is empty or incorrect rinse aid amount is set. Add rinse"
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 3,
+          "has_warning": false,
+          "excerpt": "en-us 3 Table of contents en-us Operating instructions ( Safety Definitions. . . . . . . . . . .5 ( IMPORTANT SAFETY INSTRUCTIONS . . . . . . . . . . . .6 \u0192 Causes of Damage. . . . . . . . . .9 * Getting Started . . . . . . . . . . . .10 , "
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 6,
+          "has_warning": false,
+          "excerpt": "be used in this cycle. Normal This cycle is meant for daily, regular, or typical use to completely wash a full load of normally soiled dishes and is designed to conserve both water and energy. NOTE: Normal was used to rate the energy effici"
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 23,
+          "has_warning": false,
+          "excerpt": "Dishwasher Cycles en-us 23 / Dishwasher Cycles Dishwasher Cycles Note: The Energy Guide label was based on the Normal soil sensing cycle as follows: The unit was tested without any rinse aid (liquid) in the rinse aid dispenser 9*. A single "
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 7,
+          "has_warning": false,
+          "excerpt": "cycle. Steam (Prewash) (on some models) For use with heavily soiled and/or dried-on, baked-on soils. This option MUST be selected PRIOR to starting the cycle. The Steam option adds up to 30 minutes to the cycle time. This option is availabl"
+        }
+      ],
+      "status": "generated",
+      "detail": "offline fixture - no provider call",
+      "problems": [],
+      "source_validation": "accepted",
+      "answer": "The manual describes this as \"en-us Dishwasher Cycle Options 24 0 Dishwasher Cycle\" for this appliance [S1].",
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG5",
+      "question": "What does the Delay Start option do on the dishwasher?",
+      "selected_model": null,
+      "single_doc_required": false,
+      "evidence_docs": [
+        "bosch-shem63w5xn-9001238146",
+        "ge-gdt545psjss"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 24,
+          "has_warning": false,
+          "excerpt": "en-us Dishwasher Cycle Options 24 0 Dishwasher Cycle Options Dishwasher Cycle Options Delay Allows you to delay the start time of your dishwasher up to 24 hours. Half Load Can reduce water consumption when washing small, lightly soiled load"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 7,
+          "has_warning": false,
+          "excerpt": "coffee cups, etc. See use recommendations in the Loading section. Delay Hours (on some models) Delays the start of a wash cycle up to 8 to 12 hours depending on model. Press Delay Hours, to select the number of hours, then press Start one t"
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 7,
+          "has_warning": false,
+          "excerpt": "cycle. Steam (Prewash) (on some models) For use with heavily soiled and/or dried-on, baked-on soils. This option MUST be selected PRIOR to starting the cycle. The Steam option adds up to 30 minutes to the cycle time. This option is availabl"
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 27,
+          "has_warning": false,
+          "excerpt": "Operating the Dishwasher en-us 27 Switching the appliance on 1. Turn the water supply on fully. 2. Press the On/Off button (. The AUTO wash cycle has been preset as a default whenever the appliance starts. This wash cycle remains selected i"
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 8,
+          "has_warning": false,
+          "excerpt": "8 49-55117 Getting started USING THE DISHWASHER Start Dishwasher Start Door can be open to select the desired options. Press the Start pad and close the door within 10 seconds to start the cycle or begin the Delay Hours countdown. The wash "
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 11,
+          "has_warning": false,
+          "excerpt": "Getting Started en-us 11 The numbers stated below refer to the overview images on the previous page of this manual. Operating panel Dishwasher interior components * optional feature which may or may not be included with your dishwasher. Dis"
+        }
+      ],
+      "status": "rejected_citations",
+      "detail": "The generated text was discarded: the answer contained no [S#] citations; these sentences or list items carried no [S#] citation: #1 (Just run it on the normal setting.). Only the retrieved evidence is shown.",
+      "problems": [
+        "the answer contained no [S#] citations",
+        "these sentences or list items carried no [S#] citation: #1 (Just run it on the normal setting.)"
+      ],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG6",
+      "question": "What does the Add 30 Seconds button do on the microwave?",
+      "selected_model": null,
+      "single_doc_required": false,
+      "evidence_docs": [
+        "ge-jes1095smss",
+        "samsung-ms14k6000as"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "samsung-ms14k6000as",
+          "pdf_page": 9,
+          "has_warning": false,
+          "excerpt": "Add 30 Seconds (One Minute +) Touch ADD 30 SEC (One Minute +). to start the microwave oven at 100 % power for 30 seconds (one minute), or to add time in 30-second (one minute) increments to any manual cooking cycle. To Test If Cookware Is M"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "ge-jes1095smss",
+          "pdf_page": 15,
+          "has_warning": false,
+          "excerpt": "49-7000213 Rev. 0 15 Other Features USING YOUR OVEN Cooking Complete Reminder To remind you that you have food in the oven, the oven will display \u201cEND\u201d and beep once a minute until you either open the oven door or press the Cancel/Off butto"
+        }
+      ],
+      "status": "rejected_citations",
+      "detail": "The generated text was discarded: these sentences or list items carried no verbatim quote from the passage they cite: #1 (Run the normal cycle [S1].). Only the retrieved evidence is shown.",
+      "problems": [
+        "these sentences or list items carried no verbatim quote from the passage they cite: #1 (Run the normal cycle [S1].)"
+      ],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG7",
+      "question": "How do I change the refrigerator temperature?",
+      "selected_model": null,
+      "single_doc_required": true,
+      "evidence_docs": [
+        "ge-gne25jsk",
+        "samsung-rf23r6201sr"
+      ],
+      "presented_sources": [],
+      "sources": [],
+      "status": "needs_clarification",
+      "detail": "This is a procedure or a fault, and the passages come from more than one manual. Choose one model so the steps are not merged across appliances.",
+      "problems": [],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG8",
+      "question": "What does the Eco Dry function do on the dryer?",
+      "selected_model": null,
+      "single_doc_required": false,
+      "evidence_docs": [
+        "ge-gtd45easjws",
+        "ge-gtd65ebsjws",
+        "samsung-dve45t6000w"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 36,
+          "has_warning": false,
+          "excerpt": "times normal depending on the temperature and load. The Eco Dry function is enabled by default. 08 Damp Alert This alert is available for all sensor dry cycles except for ACTIVE WEAR and SANITIZE . Available dry levels are Less, Normal, Mor"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 36,
+          "has_warning": false,
+          "excerpt": "Operations English36 05 Time Press Time to select a drying time for the selected cycle. This is available only with TIME DRY, QUICK DRY, and AIR FLUFF. This button is not available for Sensor Dry cycles because exact drying times are determ"
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 45,
+          "has_warning": false,
+          "excerpt": "the cool-down phase of the cycle. \u2022 Turn off the Eco Dry option for the NORMAL or TIME DRY cycles. When the Eco Dry option is on, the dryer performs an air dry process in the beginning of the cycle to reduce energy consumption. The air dry "
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 45,
+          "has_warning": false,
+          "excerpt": "English 45 Troubleshooting Checkpoints If the dryer operates abnormally, first check the list of problems in the table below and try the suggested actions. Problem Action Does not run. \u2022 Make sure the door is latched shut. \u2022 Make sure the p"
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "ge-gtd45easjws",
+          "pdf_page": 6,
+          "has_warning": false,
+          "excerpt": "The alloy steel used to make the dryer drum provides the highest reliability available in a GE dryer. If the dryer drum should be scratched or dented during normal use, the drum will not rust or corrode. These surface blemishes will not aff"
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "ge-gtd65ebsjws",
+          "pdf_page": 8,
+          "has_warning": false,
+          "excerpt": "the dryer drum. NOTE: n The drying rack must be used with the Timed Cycle. n Do not use this drying rack when there are other clothes in the dryer. If your model did not come with a drying rack, order one on-line at GEApplianceparts.com tod"
+        }
+      ],
+      "status": "generated",
+      "detail": "offline fixture - no provider call",
+      "problems": [],
+      "source_validation": "accepted",
+      "answer": "The manual describes this as \"times normal depending on the temperature and load.\" for this appliance [S1].",
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FG9",
+      "question": "How do I use the Wrinkle Prevent option on the dryer?",
+      "selected_model": null,
+      "single_doc_required": true,
+      "evidence_docs": [
+        "ge-gtd65ebsjws",
+        "samsung-dve45t6000w"
+      ],
+      "presented_sources": [],
+      "sources": [],
+      "status": "needs_clarification",
+      "detail": "This is a procedure or a fault, and the passages come from more than one manual. Choose one model so the steps are not merged across appliances.",
+      "problems": [],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FI1",
+      "question": "How should I clean the dryer lint screen?",
+      "selected_model": "DVE45T6000W",
+      "single_doc_required": true,
+      "evidence_docs": [
+        "samsung-dve45t6000w"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 9,
+          "has_warning": false,
+          "excerpt": "\u2022 Do not tamper with the controls. \u2022 Do not repair, replace, or attempt to service any part of the appliance unless specifically instructed to in the user-repair instructions and you have the understanding and skills to carry out the proced"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 8,
+          "has_warning": false,
+          "excerpt": "into the appliance if the drum is moving. 6. Do not install or store this appliance where it will be exposed to the weather. 7. Do not tamper with controls. 8. Do not repair or replace any part of the appliance or attempt any servicing unle"
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 48,
+          "has_warning": false,
+          "excerpt": "Troubleshooting English48 Information codes If the dryer fails to operate, you may see an information code on the display panel. To determine what you should do, check the list of codes in the table below, and then try the suggested actions"
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 34,
+          "has_warning": false,
+          "excerpt": "English34 Before you start Here are a few things you should know before starting your dryer. Sort and load \u2022 Put one wash load in the dryer at a time. \u2022 Do not mix heavy and lightweight items together. \u2022 To improve drying efficiency for one"
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 34,
+          "has_warning": true,
+          "excerpt": "a risk of fire, make sure to clean the lint filter before or after every load. 1. Turn off the dryer. 2. Open the door and pull out the lint filter (A) from inside the drum. 3. Open the lint filter by separating it at the top. Remove the li"
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "samsung-dve45t6000w",
+          "pdf_page": 46,
+          "has_warning": false,
+          "excerpt": "heavy item is dried with a light weight load, such as one towel with sheets, it is possible that the heavy item will not be completely dry when the rest of the load has reached the selected dryness level. \u2022 For the best drying results, dry "
+        }
+      ],
+      "status": "rejected_citations",
+      "detail": "The generated text was discarded: these sentences or list items carried no verbatim quote from the passage they cite: #1 (Run the normal cycle [S1].). Only the retrieved evidence is shown.",
+      "problems": [
+        "these sentences or list items carried no verbatim quote from the passage they cite: #1 (Run the normal cycle [S1].)"
+      ],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FI2",
+      "question": "Where do I add rinse aid?",
+      "selected_model": "SHEM63W55N",
+      "single_doc_required": true,
+      "evidence_docs": [
+        "bosch-shem63w5xn-9001238146"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 12,
+          "has_warning": false,
+          "excerpt": "en-us Rinse Aid 12 , Rinse Aid Rinse Aid To achieve proper drying, always use a liquid rinse aid, even if your detergent contains a rinse aid or drying additive. Note: The dishwasher indicates low rinse aid by turning on the Rinse Aid indic"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 11,
+          "has_warning": false,
+          "excerpt": "rack 9* Rinse aid dispenser 92 Detergent dispenser 9: Lock for detergent dispenser 9B Rating plate \u2039:\u2039\u2039 Cycle time remaining Clean Lights up when dishes are clean Sanitize Lights up when sanitation requirements are met Add Rinse Aid Lights "
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 34,
+          "has_warning": false,
+          "excerpt": "~ \"Rinse Aid\" on page 12 Dishes are not getting dry enough Note: Plastic or Teflon do not typically dry as well as other items due to their inherent properties. Rinse aid dispenser 9* is empty or incorrect rinse aid amount is set. Add rinse"
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 34,
+          "has_warning": false,
+          "excerpt": "en-us Troubleshooting 34 Dishwasher seems to run a long time Incoming water is not warm enough. Before starting a cycle, run hot water faucet at the sink closest to the dishwasher. Cycle time can vary due to soil and water conditions. Senso"
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 11,
+          "has_warning": false,
+          "excerpt": "Getting Started en-us 11 The numbers stated below refer to the overview images on the previous page of this manual. Operating panel Dishwasher interior components * optional feature which may or may not be included with your dishwasher. Dis"
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "bosch-shem63w5xn-9001238146",
+          "pdf_page": 12,
+          "has_warning": false,
+          "excerpt": "lid. Lid must be fully closed until it clicks in order to seal. 4. Wipe up any excess rinse aid that may have puddled when the dispenser reservoir is full. The indicator light will go out a few moments after the dishwasher door is shut. NOT"
+        }
+      ],
+      "status": "insufficient_evidence",
+      "detail": "The model reported that the evidence does not answer the question.",
+      "problems": [],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FI3",
+      "question": "How do I remove the ice bucket?",
+      "selected_model": "RF23R6201SR",
+      "single_doc_required": true,
+      "evidence_docs": [
+        "samsung-rf23r6201sr"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "samsung-rf23r6201sr",
+          "pdf_page": 56,
+          "has_warning": false,
+          "excerpt": "a mix of melted and jammed ice cubes, which can prevent the ice maker from working properly. To prevent this, make sure to empty the ice bucket so the ice bucket can refill with fresh, loose ice cubes. \u2022 Do not put fingers or any objects in"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "samsung-rf23r6201sr",
+          "pdf_page": 58,
+          "has_warning": true,
+          "excerpt": "English58 Maintenance Handling and care Ice bucket (applicable models only) If you do not dispense ice for an extended period, ice may form clumps inside the bucket. If this happens, remove and empty the ice bucket. 1. To remove the ice buc"
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "samsung-rf23r6201sr",
+          "pdf_page": 56,
+          "has_warning": false,
+          "excerpt": "difficult to remove them. To remove the ice bucket, see the Ice bucket (applicable models only) section on page 58. NOTE \u2022 Removal of the ice bucket does not affect the thermal and mechanical performance of the refrigerator. Water clouding "
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "samsung-rf23r6201sr",
+          "pdf_page": 64,
+          "has_warning": false,
+          "excerpt": "Maintenance English64 Maintenance Freezer baskets Lower ice bucket (applicable models only) 1. Fully open the freezer drawer. 2. Lift the lower ice bucket to remove. Upper basket \u2022 To remove, fully slide open the freezer drawer. Lift up the"
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "samsung-rf23r6201sr",
+          "pdf_page": 59,
+          "has_warning": true,
+          "excerpt": "English 59 Maintenance \u2022 Use only the provided ice bucket. Third-party ice buckets may cause a system failure. NOTE \u2022 The water pressure required for ice making is between 30 to 120 psi (206 to 827 kPa). \u2022 Noise from the ice maker as it pro"
+        },
+        {
+          "source_id": "S6",
+          "doc_id": "samsung-rf23r6201sr",
+          "pdf_page": 73,
+          "has_warning": false,
+          "excerpt": "English 73 Troubleshooting Symptom Possible causes Solution Ice does not dispense. \u2022 Ice may jam if the ice dispenser is not used for a long time (approx. 3 weeks). \u2022 If you won't be using the refrigerator for a long time, empty the ice buc"
+        }
+      ],
+      "status": "generated",
+      "detail": "offline fixture - no provider call",
+      "problems": [],
+      "source_validation": "accepted",
+      "answer": "The manual describes this as \"a mix of melted and jammed ice cubes,\" for this appliance [S1].",
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FI4",
+      "question": "What does the Steam prewash option do?",
+      "selected_model": "GDT545PSJSS",
+      "single_doc_required": true,
+      "evidence_docs": [
+        "ge-gdt545psjss"
+      ],
+      "presented_sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "sources": [
+        {
+          "source_id": "S1",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 7,
+          "has_warning": false,
+          "excerpt": "after the main wash portion or if the incoming water temperature is so low that adequate water heating cannot be achieved, the sanitizing conditions may not be met. In these cases, the Sanitized light will not illuminate at the end of the c"
+        },
+        {
+          "source_id": "S2",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 7,
+          "has_warning": false,
+          "excerpt": "cycle. Steam (Prewash) (on some models) For use with heavily soiled and/or dried-on, baked-on soils. This option MUST be selected PRIOR to starting the cycle. The Steam option adds up to 30 minutes to the cycle time. This option is availabl"
+        },
+        {
+          "source_id": "S3",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 29,
+          "has_warning": false,
+          "excerpt": "\u00e0 air chauff\u00e9 activ\u00e9) Active l\u2019option afin d\u2019acc\u00e9l\u00e9rer le s\u00e9chage. Cette option ajoute 85 minutes \u00e0 la dur\u00e9e du cycle. Cette option n\u2019est pas disponible avec le cycle Rinse (Rin\u00e7age). Steam (Prewash) (Vapeur) (certains mod\u00e8les) 3RXU\u0003XWLOLVD"
+        },
+        {
+          "source_id": "S4",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 29,
+          "has_warning": false,
+          "excerpt": "ou apr\u00e8s l\u2019\u00e9tape du lavage principal, ou si la temp\u00e9rature de l\u2019eau d\u2019admission est si basse qu\u2019un lavage ad\u00e9quat ne peut \u00eatre obtenu, il se peut que les crit\u00e8res de d\u00e9sinfection ne soient pas atteints. Dans ce cas, le voyant Sanitized ne s"
+        },
+        {
+          "source_id": "S5",
+          "doc_id": "ge-gdt545psjss",
+          "pdf_page": 51,
+          "has_warning": false,
+          "excerpt": "Si el ciclo es interrumpido durante o despu\u00e9s de la parte del lavado principal o si la temperatura del agua entrante es tan baja que no se puede lograr un nivel de calor adecuado del agua, es posible que no se cumpla con las condiciones de "
+        }
+      ],
+      "status": "rejected_citations",
+      "detail": "The generated text was discarded: the answer contained no [S#] citations; these sentences or list items carried no [S#] citation: #1 (Just run it on the normal setting.). Only the retrieved evidence is shown.",
+      "problems": [
+        "the answer contained no [S#] citations",
+        "these sentences or list items carried no [S#] citation: #1 (Just run it on the normal setting.)"
+      ],
+      "source_validation": "not_accepted",
+      "answer": null,
+      "usage": null,
+      "usage_reported": false
+    },
+    {
+      "id": "FU1",
+      "question": "My WDF520PADM dishwasher will not drain.",
+      "skipped": true,
+      "reason": "retrieval returned no evidence to write from"
+    },
+    {
+      "id": "FU2",
+      "question": "How do I reset the filter light on KDTM404KPS?",
+      "skipped": true,
+      "reason": "retrieval returned no evidence to write from"
+    },
+    {
+      "id": "FC1",
+      "question": "The washer is not draining.",
+      "skipped": true,
+      "reason": "retrieval returned no evidence to write from"
+    },
+    {
+      "id": "FC2",
+      "question": "My dryer will not heat up.",
+      "skipped": true,
+      "reason": "retrieval returned no evidence to write from"
+    },
+    {
+      "id": "FA1",
+      "question": "How do I replace the timing belt on the engine?",
+      "skipped": true,
+      "reason": "retrieval returned no evidence to write from"
+    },
+    {
+      "id": "FA2",
+      "question": "How do I bleed the brake lines on a riding mower?",
+      "skipped": true,
+      "reason": "retrieval returned no evidence to write from"
+    },
+    {
+      "id": "FX1",
+      "question": "How do I add rinse aid on the RF23R6201SR?",
+      "skipped": true,
+      "reason": "retrieval returned no evidence to write from"
+    }
+  ]
+}
